@@ -87,6 +87,13 @@ tested at full lane rate in bring-up ([length report](docs/opi/length_report.md)
 KiCad's design-rule check passes with 0 errors and 0 unconnected nets, the schematic and the board match exactly, and
 the schematic passes its electrical-rule check. That was not enough, so the project added its own checks:
 
+- **Engineering review at the manufacturer.** Every order's Gerber, drill, BOM and placement files went through
+  JLCPCB's engineering review before production: their CAM engineers check the fabrication files for manufacturability,
+  their SMT engineers check parts, land patterns and placement before assembly. Over three submissions of Board A they
+  raised three problems (touching track ends, the Wi-Fi module's land pattern, copper too close for V-cut), all fixed and
+  listed in the table below; the files now in production passed both reviews, as did Board B's. This is a
+  manufacturability review, not a review of the circuit design: an independent design review is still an open item in
+  [`REVIEW.md`](REVIEW.md).
 - **Gerber-level connectivity** (`tools/gerber_check.py`). KiCad treats copper that merely touches as connected; a
   board house's CAM software does not. The exported Gerbers are read back as geometry and every track and via joint is
   measured the way the fab will see it.
