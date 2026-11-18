@@ -21,7 +21,7 @@ upload and the options to select).
   rule (0.2 mm). Ask for the holes outside the outline and the tabs on that edge near the corners. On delivery: cut
   the tabs, file the nubs flush with the outline, not past it. JLCPCB asked (2026-11-17) whether point 2 meant a file change: no, proceed with the existing files; the tab placement is shown in `fab/board_a/jlc_reply_mouse_bite_tabs.png`.
 - **Production file (Y5), 2026-11-18: checked against ours, fine to confirm** (`tools/jlc_prod_check/`): copper, holes, silkscreen and mask as ours apart from standard CAM changes (etch compensation, unused inner pads removed); mouse-bite tabs within 10 mm of each corner, nearest copper GND at 0.21 mm. Order data: **purple** solder mask (ORDER.md said green; JLCPCB's bridge minimum is the same 0.10 mm for purple). **SW304 / SW305 / SW306 (RESET / MASKROM / RECOVERY, C455278) are not assembled** in the placement preview (JLCPCB's part page showed 0 remaining): hand-solder them after delivery (C455278 from LCSC, or C&K PTS820J20MSMTR-LFS from DigiKey, CKN10505CT-ND: same 3.9 x 2.9 x 2.0 mm body, its two J terminals (4.4 mm tip to tip, 1.0 wide) land inside our 1.05 x 2.0 mm pads at 4.45 mm, checked against C&K's drawing 2026-11-18; not a 'P' version, those have pegs and the board has no holes for them); until then shorting a switch's pads with tweezers does the same.
-- **Board B:** ready to upload (`fab/board_b/`).
+- **Board B: in production** (the user, 2026-11-18), from `fab/board_b/`.
 
 ## Waiting on
 

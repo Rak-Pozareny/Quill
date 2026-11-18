@@ -8,8 +8,8 @@ Meet Quill.
   <img src="docs/media/board_a_hero.png" width="820" alt="3D render of Quill's main board (Board A) with the Orange Pi CM5 module (RK3588S) fitted, USB-C and USB-A ports, display and camera connectors, SIM and microSD; its underside reflected below">
 </p>
 
-> **Status, November 2026.** Both boards are designed and pass every check run before manufacture. The main board
-> (Board A, rev A) is being made and assembled by JLCPCB, and the compute module has arrived. Nothing has been powered
+> **Status, November 2026.** Both boards are designed, pass every check run before manufacture, and are in
+> production at JLCPCB; the compute module has arrived. Nothing has been powered
 > on yet: every number on this page is a design value or the result of a check on the design files, not a measurement.
 
 ## What Quill is
@@ -139,6 +139,7 @@ datasheet, a drawing, a measurement) is marked **UNVERIFIED** until it is.
 - [x] Schematics, placement, routing and manufacturing files for both boards
 - [x] Board A redesigned for the Orange Pi CM5 when the original compute module (Radxa CM5) could not be bought
 - [x] Board A rev A ordered: 6 layers, impedance-controlled, assembled by JLCPCB
+- [x] Board B ordered
 - [ ] Bring-up: power rails, USB PD and charger configuration, first boot, display, cameras, Wi-Fi, LTE
 - [ ] Measurements: converter efficiency, battery life, thermals, signal quality on the high-speed links
 - [ ] Linux device tree and drivers validated on the hardware
