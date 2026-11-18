@@ -5,7 +5,7 @@ Desktop and phone in one. A clean, all-transparent DORFic design that sits comfo
 Meet Quill.
 
 <p align="center">
-  <img src="docs/media/board_a_top.png" width="780" alt="3D render of Quill's main board (Board A), top side: the compute module (shown as a block), USB-A ports, microSD, buttons">
+  <img src="docs/media/board_a_hero.png" width="820" alt="3D render of Quill's main board (Board A) with the Orange Pi CM5 module (RK3588S) fitted, USB-C and USB-A ports, display and camera connectors, SIM and microSD; its underside reflected below">
 </p>
 
 > **Status, November 2026.** Both boards are designed and pass every check run before manufacture. The main board
@@ -171,3 +171,7 @@ Everything here is under the MIT licence ([`LICENSE`](LICENSE)), except:
 
 Solder Party's BBQ20KBD and i2c_puppet, which Board B and its firmware build on; Orange Pi, Radxa and Khadas, whose
 published schematics and drawings served as reference designs; and the open-source KiCad project.
+
+The renders use the parts' 3D models from the **JLCEDA / EasyEDA Official Library** ([lceda.cn](https://lceda.cn/),
+[easyeda.com](https://easyeda.com)), fitted onto this design's footprints by `tools/media.py`; the compute module, the
+LTE card, the USB-A ports and the battery connector are modelled from their drawings and a photo of the module.

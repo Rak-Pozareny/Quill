@@ -137,6 +137,7 @@ python3 -I tools/bom_cost.py fab/board_a/BOM.csv     # parts cost at live JLCPCB
 ## README images
 
 ```
-python3 -I tools/media.py            # docs/media/: 3D renders of both boards, Board A's six copper layers
+python3 -I tools/media.py            # docs/media/: renders with real part models (EasyEDA, cached in research/dl/easyeda_3d),
+                                     # the hero image with its reflection, Board A's six copper layers
 python3 -I tools/datasheets.py       # datasheets/ and its index, with the BOM coverage check
 ```
