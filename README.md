@@ -87,6 +87,11 @@ tested at full lane rate in bring-up ([length report](docs/opi/length_report.md)
 KiCad's design-rule check passes with 0 errors and 0 unconnected nets, the schematic and the board match exactly, and
 the schematic passes its electrical-rule check. That was not enough, so the project added its own checks:
 
+- **Review by the designer before every submission.** Before each set of Gerbers went to the manufacturer, Rak went
+  through the design and the files. That review found, for example, that the part outlines on the silkscreen were drawn
+  0.12 mm wide, under JLCPCB's 0.15 mm minimum (KiCad's default, missed by every automated check here; widened to
+  0.15 mm for the next revision, D123), and produced a cleaner order package: a Gerber job file giving the fab every
+  layer's function and order, and the impedance drawing and table set apart from the board layers with fabrication notes.
 - **Engineering review at the manufacturer.** Every order's Gerber, drill, BOM and placement files went through
   JLCPCB's engineering review before production: their CAM engineers check the fabrication files for manufacturability,
   their SMT engineers check parts, land patterns and placement before assembly. Over three submissions of Board A they
@@ -157,9 +162,10 @@ datasheet, a drawing, a measurement) is marked **UNVERIFIED** until it is.
 ## How Quill is made
 
 Quill is designed by Rak Pozareny with Claude, an AI model made by Anthropic, used through Claude Code. Rak defined the
-device and its requirements, made the calls at each decision point, sourced the modules and parts, and handles the
-manufacturers and suppliers; the hardware will be assembled and tested by hand. Claude wrote the generator and checking
-code, produced the schematics and layout with it, and wrote most of the documentation. Commits made with Claude carry a
+device and its requirements, made the calls at each decision point, sourced the modules and parts, reviewed the design
+and its Gerber files personally before every submission to the manufacturer, and handles the manufacturers and
+suppliers; the hardware will be assembled and tested by hand. Claude wrote the generator and checking code, produced
+the schematics and layout with it, and wrote most of the documentation. Commits made with Claude carry a
 `Co-Authored-By: Claude` line.
 
 ## Licences
