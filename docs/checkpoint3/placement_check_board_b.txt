@@ -1,0 +1,7 @@
+== 1. decoupling capacitors farther than 4.0 mm from a pin on their rail
+    4.3 mm  C111  1uF 6.3V     DVDD           nearest U102  (B)  [RP2040 + 16 Mbit QSPI flash + 12 MHz crystal]
+  1 capacitors above 4.0 mm
+
+== 2. switch nodes: inductor pad to the nearest switch pin
+
+== 3. sensitive nets: spanning length over pad centres

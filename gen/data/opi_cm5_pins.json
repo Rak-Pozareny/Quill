@@ -1,0 +1,1808 @@
+{
+ "JP1": {
+  "1": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "2": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "3": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "4": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "5": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "6": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "7": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "8": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "9": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "10": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "11": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "12": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "13": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "14": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "15": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "16": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "17": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "18": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "19": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "20": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "21": {
+   "signal": "GPIO4_A4",
+   "gpio": "GPIO4_A4",
+   "domain": "3.3V",
+   "desc": "GPIO Typically a 3.3V"
+  },
+  "22": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "23": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "24": {
+   "signal": "GPIO1_C0",
+   "gpio": "GPIO1_C0",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "25": {
+   "signal": "GPIO1_B0",
+   "gpio": "GPIO1_B0",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "26": {
+   "signal": "GPIO1_C1",
+   "gpio": "GPIO1_C1",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "27": {
+   "signal": "GPIO1_B1",
+   "gpio": "GPIO1_B1",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "28": {
+   "signal": "GPIO1_A2",
+   "gpio": "GPIO1_A2",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "29": {
+   "signal": "GPIO1_B2",
+   "gpio": "GPIO1_B2",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "30": {
+   "signal": "GPIO1_A3",
+   "gpio": "GPIO1_A3",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "31": {
+   "signal": "GPIO1_B3",
+   "gpio": "GPIO1_B3",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "32": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "33": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "34": {
+   "signal": "GPIO1_A4",
+   "gpio": "GPIO1_A4",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "35": {
+   "signal": "GPIO1_D6",
+   "gpio": "GPIO1_D6",
+   "domain": "UNVERIFIED",
+   "desc": "GPIO Typically a 3.3V"
+  },
+  "36": {
+   "signal": "GPIO1_D7",
+   "gpio": "GPIO1_D7",
+   "domain": "UNVERIFIED",
+   "desc": "GPIO Typically a 3.3V"
+  },
+  "37": {
+   "signal": "GPIO1_B4",
+   "gpio": "GPIO1_B4",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "38": {
+   "signal": "GPIO1_A5",
+   "gpio": "GPIO1_A5",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "39": {
+   "signal": "GPIO1_B5",
+   "gpio": "GPIO1_B5",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "40": {
+   "signal": "GPIO1_A6",
+   "gpio": "GPIO1_A6",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "41": {
+   "signal": "GPIO1_B6",
+   "gpio": "GPIO1_B6",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "42": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "43": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "44": {
+   "signal": "GPIO1_A7",
+   "gpio": "GPIO1_A7",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "45": {
+   "signal": "GPIO1_B7",
+   "gpio": "GPIO1_B7",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "46": {
+   "signal": "GPIO1_C4",
+   "gpio": "GPIO1_C4",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "47": {
+   "signal": "GPIO0_C2",
+   "gpio": "GPIO0_C2",
+   "domain": "1.8V",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "48": {
+   "signal": "GPIO1_C6",
+   "gpio": "GPIO1_C6",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "49": {
+   "signal": "GPIO1_D5",
+   "gpio": "GPIO1_D5",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "50": {
+   "signal": "GPIO1_D0",
+   "gpio": "GPIO1_D0",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "51": {
+   "signal": "UART2_RX_M0",
+   "gpio": "GPIO0_B6",
+   "domain": "1.8V",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "52": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "53": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "54": {
+   "signal": "GPIO1_D1",
+   "gpio": "GPIO1_D1",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "55": {
+   "signal": "UART2_TX_M0",
+   "gpio": "GPIO0_B5",
+   "domain": "1.8V",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "56": {
+   "signal": "GPIO1_D2",
+   "gpio": "GPIO1_D2",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "57": {
+   "signal": "SDMMC_CLK",
+   "gpio": "GPIO4_D5",
+   "domain": "3.3V",
+   "desc": "SDCARD CLK signal"
+  },
+  "58": {
+   "signal": "GPIO1_D3",
+   "gpio": "GPIO1_D3",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO Typically a 3.3V，3.3V or 1.8V"
+  },
+  "59": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "60": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "61": {
+   "signal": "SDMMC_D3",
+   "gpio": "GPIO4_D3",
+   "domain": "3.3V",
+   "desc": "SDCARD Data3 signal"
+  },
+  "62": {
+   "signal": "SDMMC_CMD",
+   "gpio": "GPIO4_D4",
+   "domain": "3.3V",
+   "desc": "SDCARD CMD signal"
+  },
+  "63": {
+   "signal": "SDMMC_D0",
+   "gpio": "GPIO4_D0",
+   "domain": "3.3V",
+   "desc": "SDCARD Data0 signal"
+  },
+  "64": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Do not Connect anything to this pin."
+  },
+  "65": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "66": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V) RECOVERY signal，Internally pulled"
+  },
+  "67": {
+   "signal": "SDMMC_D1",
+   "gpio": "GPIO4_D1",
+   "domain": "3.3V",
+   "desc": "SDCARD Data1 signal"
+  },
+  "68": {
+   "signal": "SARADC_IN1",
+   "gpio": null,
+   "domain": null,
+   "desc": "up via 10K to1.8V"
+  },
+  "69": {
+   "signal": "SDMMC_D2",
+   "gpio": "GPIO4_D2",
+   "domain": "3.3V",
+   "desc": "SDCARD Data2 signal"
+  },
+  "70": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "71": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "72": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "73": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Do not Connect anything to this pin. Output to Power switch for the SDCARD"
+  },
+  "74": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V) SDMMC0_DET"
+  },
+  "75": {
+   "signal": "SDMMC_PWREN",
+   "gpio": "GPIO0_A5",
+   "domain": "1.8V",
+   "desc": "GPIO4_B4 For 3.3V GPIO."
+  },
+  "76": {
+   "signal": "GPIO0_A4",
+   "gpio": "GPIO0_A4",
+   "domain": "1.8V",
+   "desc": "GPIO0_A4,For 1.8V GPIO."
+  },
+  "77": {
+   "signal": "VBUS",
+   "gpio": null,
+   "domain": null,
+   "desc": "4.75V-5.25V Main power input"
+  },
+  "78": {
+   "signal": "GPIO_VREF",
+   "gpio": null,
+   "domain": null,
+   "desc": "Power for 3.3V GPIO or for 1.8V GPIO. IIC Clock pin"
+  },
+  "79": {
+   "signal": "VBUS",
+   "gpio": null,
+   "domain": null,
+   "desc": "4.75V-5.25V Main power input"
+  },
+  "80": {
+   "signal": "I2C6_SCL_M3",
+   "gpio": "GPIO4_B1",
+   "domain": "3.3V",
+   "desc": "GPIO4_B1, for 3.3V IIC Data pin"
+  },
+  "81": {
+   "signal": "VBUS",
+   "gpio": null,
+   "domain": null,
+   "desc": "4.75V-5.25V Main power input"
+  },
+  "82": {
+   "signal": "I2C6_SDA_M3",
+   "gpio": "GPIO4_B0",
+   "domain": "3.3V",
+   "desc": "GPIO4_B0, for 3.3V 3.3V +/-2.5% Power Output max"
+  },
+  "83": {
+   "signal": "VBUS",
+   "gpio": null,
+   "domain": null,
+   "desc": "4.75V-5.25V Main power input"
+  },
+  "84": {
+   "signal": "VCC_3V3_S3",
+   "gpio": null,
+   "domain": null,
+   "desc": "300mA per pin for a total of 600mA. 3.3V +/-2.5% Power Output max"
+  },
+  "85": {
+   "signal": "VBUS",
+   "gpio": null,
+   "domain": null,
+   "desc": "4.75V-5.25V Main power input"
+  },
+  "86": {
+   "signal": "VCC_3V3_S3",
+   "gpio": null,
+   "domain": null,
+   "desc": "300mA per pin for a total of 600mA."
+  },
+  "87": {
+   "signal": "VBUS",
+   "gpio": null,
+   "domain": null,
+   "desc": "4.75V-5.25V Main power input"
+  },
+  "88": {
+   "signal": "VCC_1V8_S3",
+   "gpio": null,
+   "domain": null,
+   "desc": "300mA per pin for a total of 600mA. 1.8V +/-2.5% Power Output max"
+  },
+  "89": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "90": {
+   "signal": "VCC_1V8_S3",
+   "gpio": null,
+   "domain": null,
+   "desc": "300mA per pin for a total of 600mA. Bidirectional pin. Can be driven low to"
+  },
+  "91": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg A low on this pin forces booting ,"
+  },
+  "92": {
+   "signal": "PMIC_RESET_L",
+   "gpio": null,
+   "domain": null,
+   "desc": "Reset the CM5 CPU."
+  },
+  "93": {
+   "signal": "SARADC_IN0",
+   "gpio": null,
+   "domain": null,
+   "desc": "Internally pulled up via IO to1.8V"
+  },
+  "94": {
+   "signal": "SARADC_IN3",
+   "gpio": null,
+   "domain": null,
+   "desc": "12-bit ADC in signal,MAX 1.8V"
+  },
+  "95": {
+   "signal": "GPIO4_B6",
+   "gpio": "GPIO4_B6",
+   "domain": "3.3V",
+   "desc": "GPIO4_B6, for 3.3V"
+  },
+  "96": {
+   "signal": "SARADC_IN2",
+   "gpio": null,
+   "domain": null,
+   "desc": "12-bit ADC in signal,MAX 1.8V"
+  },
+  "97": {
+   "signal": "GPIO4_A7",
+   "gpio": "GPIO4_A7",
+   "domain": "3.3V",
+   "desc": "GPIO4_A7, for 3.3V Input. Drive low to power off or power"
+  },
+  "98": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "99": {
+   "signal": "PWRON_L",
+   "gpio": null,
+   "domain": null,
+   "desc": "on ,CM5. Internally pulled up with a 45K to VBUS"
+  },
+  "100": {
+   "signal": "GPIO4_A5",
+   "gpio": "GPIO4_A5",
+   "domain": "3.3V",
+   "desc": "GPIO4_A5, for 3.3V"
+  }
+ },
+ "JP2": {
+  "1": {
+   "signal": "TYPEC0_USB20_OTG_ID",
+   "gpio": null,
+   "domain": null,
+   "desc": "TYPEC0_USB20_OTG_ID"
+  },
+  "2": {
+   "signal": "GPIO1_A0",
+   "gpio": "GPIO1_A0",
+   "domain": "GPIO_VREF",
+   "desc": "PCIE_CLKREQN GPIO1_A0 for 3.3V PCIE_WAKEN"
+  },
+  "3": {
+   "signal": "TYPEC0_USB20_OTG_DM",
+   "gpio": null,
+   "domain": null,
+   "desc": "TYPEC0_USB20_OTG_DM"
+  },
+  "4": {
+   "signal": "GPIO1_A1",
+   "gpio": "GPIO1_A1",
+   "domain": "GPIO_VREF",
+   "desc": "GPIO1_A1 for 3.3V"
+  },
+  "5": {
+   "signal": "TYPEC0_USB20_OTG_DP",
+   "gpio": null,
+   "domain": null,
+   "desc": "TYPEC0_USB20_OTG_DP"
+  },
+  "6": {
+   "signal": "GPIO4_A6",
+   "gpio": "GPIO4_A6",
+   "domain": "3.3V",
+   "desc": "GPIO4_A6 for 3.3V"
+  },
+  "7": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "8": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "9": {
+   "signal": "GPIO4_A2",
+   "gpio": "GPIO4_A2",
+   "domain": "3.3V",
+   "desc": "PCIE20_PERSTn_3V3_L GPIO4_A2 for 3.3V"
+  },
+  "10": {
+   "signal": "PCIE20_2_REFCLKP",
+   "gpio": null,
+   "domain": null,
+   "desc": "PCIE20_2_REFCLKP,"
+  },
+  "11": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "12": {
+   "signal": "PCIE20_2_REFCLKN",
+   "gpio": null,
+   "domain": null,
+   "desc": "PCIE20_2_REFCLKN"
+  },
+  "13": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "14": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "15": {
+   "signal": "MIPI_CSI0_D0N",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_CSI0_RX_D0N"
+  },
+  "16": {
+   "signal": "PCIE20_2_RXP/SATA30_2_RXP",
+   "gpio": null,
+   "domain": null,
+   "desc": "PCIE20_2_RXP SATA30_2_RXP"
+  },
+  "17": {
+   "signal": "MIPI_CSI0_D0P",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_CSI0_RX_D0P"
+  },
+  "18": {
+   "signal": "PCIE20_2_RXN/SATA30_2_RXN",
+   "gpio": null,
+   "domain": null,
+   "desc": "PCIE20_2_RXN SATA30_2_RXN"
+  },
+  "19": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "20": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "21": {
+   "signal": "MIPI_CSI0_D1N",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_CSI0_RX_D1N"
+  },
+  "22": {
+   "signal": "PCIE20_2_TXP/SATA30_2_TXP",
+   "gpio": null,
+   "domain": null,
+   "desc": "PCIE20_2_TXP SATA30_2_TXP PCIE20_2_TXN"
+  },
+  "23": {
+   "signal": "MIPI_CSI0_D1P",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_CSI0_RX_D1P"
+  },
+  "24": {
+   "signal": "PCIE20_2_TXN/SATA30_2_TXN",
+   "gpio": null,
+   "domain": null,
+   "desc": "SATA30_2_TXN"
+  },
+  "25": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "26": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "27": {
+   "signal": "MIPI_CSI0_CLK0N",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_CSI0_RX_CLK0N"
+  },
+  "28": {
+   "signal": "MIPI_DPHY0_RX_D0N",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY0_RX_D0N"
+  },
+  "29": {
+   "signal": "MIPI_CSI0_CLK0P",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_CSI0_RX_CLK0P"
+  },
+  "30": {
+   "signal": "MIPI_DPHY0_RX_D0P",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY0_RX_D0P"
+  },
+  "31": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "32": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "33": {
+   "signal": "MIPI_CSI0_D2N",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_CSI0_RX_D2N"
+  },
+  "34": {
+   "signal": "MIPI_DPHY0_RX_D1N",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY0_RX_D1N"
+  },
+  "35": {
+   "signal": "MIPI_CSI0_D2P",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_CSI0_RX_D2P"
+  },
+  "36": {
+   "signal": "MIPI_DPHY0_RX_D1P",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY0_RX_D1P"
+  },
+  "37": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "38": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "39": {
+   "signal": "MIPI_CSI0_D3N",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_CSI0_RX_D3N"
+  },
+  "40": {
+   "signal": "MIPI_DPHY0_RX_CLKN",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY0_RX_CLKN"
+  },
+  "41": {
+   "signal": "MIPI_CSI0_D3P",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_CSI0_RX_D3P"
+  },
+  "42": {
+   "signal": "MIPI_DPHY0_RX_CLKP",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY0_RX_CLKP"
+  },
+  "43": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "44": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "45": {
+   "signal": "MIPI_CSI0_CLK1N",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_CSI0_RX_CLK1N"
+  },
+  "46": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "47": {
+   "signal": "MIPI_CSI0_CLK1P",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_CSI0_RX_CLK1P"
+  },
+  "48": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "49": {
+   "signal": "GPIO4_B5",
+   "gpio": "GPIO4_B5",
+   "domain": "3.3V",
+   "desc": "HDMI0_TX_ON_H GPIO4_B5 for 3.3V"
+  },
+  "50": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "51": {
+   "signal": "HDMI_TX0_CEC_M0",
+   "gpio": "GPIO4_C1",
+   "domain": "3.3V",
+   "desc": "HDMI0_TX_CEC_M0 GPIO4_C1 for 3.3V V2.1"
+  },
+  "52": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "53": {
+   "signal": "HDMI_TX0_SBDN",
+   "gpio": null,
+   "domain": null,
+   "desc": "HDMI0_HPD for HDMI V2.0"
+  },
+  "54": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "55": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "56": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "57": {
+   "signal": "MIPI_DPHY0_TX_D0N",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY0_TX_D0N"
+  },
+  "58": {
+   "signal": "HDMI_TX0_SBDP",
+   "gpio": null,
+   "domain": null,
+   "desc": "HDMI0_SBDP,for HDMI V2.1"
+  },
+  "59": {
+   "signal": "MIPI_DPHY0_TX_D0P",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY0_TX_D0P"
+  },
+  "60": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "61": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "62": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "63": {
+   "signal": "MIPI_DPHY0_TX_D1N",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY0_TX_D1N"
+  },
+  "64": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "65": {
+   "signal": "MIPI_DPHY0_TX_D1P",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY0_TX_D1P"
+  },
+  "66": {
+   "signal": "Reserved",
+   "gpio": null,
+   "domain": null,
+   "desc": "Floatimg"
+  },
+  "67": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "68": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "69": {
+   "signal": "MIPI_DPHY0_TX_CLKN",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY0_TX_CLKN"
+  },
+  "70": {
+   "signal": "HDMI_TX0_D2P",
+   "gpio": null,
+   "domain": null,
+   "desc": "HDMI0_TX2P"
+  },
+  "71": {
+   "signal": "MIPI_DPHY0_TX_CLKP",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY0_TX_CLKP"
+  },
+  "72": {
+   "signal": "HDMI_TX0_D2N",
+   "gpio": null,
+   "domain": null,
+   "desc": "HDMI0_TX2N"
+  },
+  "73": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "74": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "75": {
+   "signal": "MIPI_DPHY1_TX_D0N",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY1_TX_D0N"
+  },
+  "76": {
+   "signal": "HDMI_TX0_D1P",
+   "gpio": null,
+   "domain": null,
+   "desc": "HDMI0_TX1P"
+  },
+  "77": {
+   "signal": "MIPI_DPHY1_TX_D0P",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY1_TX_D0P"
+  },
+  "78": {
+   "signal": "HDMI_TX0_D1N",
+   "gpio": null,
+   "domain": null,
+   "desc": "HDMI0_TX1N"
+  },
+  "79": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "80": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "81": {
+   "signal": "MIPI_DPHY1_TX_D1N",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY1_TX_D1N"
+  },
+  "82": {
+   "signal": "HDMI_TX0_D0P",
+   "gpio": null,
+   "domain": null,
+   "desc": "HDMI0_TX0P"
+  },
+  "83": {
+   "signal": "MIPI_DPHY1_TX_D1P",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY1_TX_D1P"
+  },
+  "84": {
+   "signal": "HDMI_TX0_D0N",
+   "gpio": null,
+   "domain": null,
+   "desc": "HDMI0_TX0N"
+  },
+  "85": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "86": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "87": {
+   "signal": "MIPI_DPHY1_TX_CLKN",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY1_TX_CLKN"
+  },
+  "88": {
+   "signal": "HDMI_TX0_D3P",
+   "gpio": null,
+   "domain": null,
+   "desc": "HDMI0_TX3P"
+  },
+  "89": {
+   "signal": "MIPI_DPHY1_TX_CLKP",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY1_TX_CLKP"
+  },
+  "90": {
+   "signal": "HDMI_TX0_D3N",
+   "gpio": null,
+   "domain": null,
+   "desc": "HDMI0_TX3N"
+  },
+  "91": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "92": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "93": {
+   "signal": "MIPI_DPHY1_TX_D2N",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY1_TX_D2N"
+  },
+  "94": {
+   "signal": "MIPI_DPHY1_TX_D3N",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY1_TX_D3N"
+  },
+  "95": {
+   "signal": "MIPI_DPHY1_TX_D2P",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY1_TX_D2P"
+  },
+  "96": {
+   "signal": "MIPI_DPHY1_TX_D3P",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY1_TX_D3P"
+  },
+  "97": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "98": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "99": {
+   "signal": "HDMI_TX0_SDA_M0",
+   "gpio": "GPIO4_C0",
+   "domain": "3.3V",
+   "desc": "HDMI_TX0_SDA_M0 GPIO4_C0, for 3.3V"
+  },
+  "100": {
+   "signal": "HDMI_TX0_SCL_M0",
+   "gpio": "GPIO4_B7",
+   "domain": "3.3V",
+   "desc": "HDMI_TX0_SCL_M0 GPIO4_B7, for 3.3V"
+  }
+ },
+ "JP3": {
+  "1": {
+   "signal": "USB20_HOST1_DP",
+   "gpio": null,
+   "domain": null,
+   "desc": "USB20_HOST1_DP"
+  },
+  "2": {
+   "signal": "TYPEC0_SSTX2P",
+   "gpio": null,
+   "domain": null,
+   "desc": "TYPEC0_SSTX2P"
+  },
+  "3": {
+   "signal": "USB20_HOST1_DM",
+   "gpio": null,
+   "domain": null,
+   "desc": "USB20_HOST1_DM"
+  },
+  "4": {
+   "signal": "TYPEC0_SSTX2N",
+   "gpio": null,
+   "domain": null,
+   "desc": "TYPEC0_SSTX2N"
+  },
+  "5": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "6": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "7": {
+   "signal": "TYPEC0_SBU1",
+   "gpio": null,
+   "domain": null,
+   "desc": "TYPEC_SBU1"
+  },
+  "8": {
+   "signal": "TYPEC0_SSRX2P",
+   "gpio": null,
+   "domain": null,
+   "desc": "TYPEC0_SSRX2P"
+  },
+  "9": {
+   "signal": "TYPEC0_SBU2",
+   "gpio": null,
+   "domain": null,
+   "desc": "TYPEC_SBU2"
+  },
+  "10": {
+   "signal": "TYPEC0_SSRX2N",
+   "gpio": null,
+   "domain": null,
+   "desc": "TYPEC0_SSRX2N"
+  },
+  "11": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "12": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "13": {
+   "signal": "USB20_HOST0_DP",
+   "gpio": null,
+   "domain": null,
+   "desc": "USB20_HOST0_DP"
+  },
+  "14": {
+   "signal": "TYPEC0_SSTX1N",
+   "gpio": null,
+   "domain": null,
+   "desc": "TYPEC0_SSTX1N"
+  },
+  "15": {
+   "signal": "USB20_HOST0_DM",
+   "gpio": null,
+   "domain": null,
+   "desc": "USB20_HOST0_DM"
+  },
+  "16": {
+   "signal": "TYPEC0_SSTX1P",
+   "gpio": null,
+   "domain": null,
+   "desc": "TYPEC0_SSTX1P"
+  },
+  "17": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "18": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "19": {
+   "signal": "TYPEC0_SSRX1N",
+   "gpio": null,
+   "domain": null,
+   "desc": "TYPEC0_SSRX1N"
+  },
+  "20": {
+   "signal": "GPIO3_C6",
+   "gpio": "GPIO3_C6",
+   "domain": "1.8V",
+   "desc": "GPIO3_C6 for1.8V PCIE20x1_2_CLKREQn_M0"
+  },
+  "21": {
+   "signal": "TYPEC0_SSRX1P",
+   "gpio": null,
+   "domain": null,
+   "desc": "TYPEC0_SSRX1P"
+  },
+  "22": {
+   "signal": "GPIO3_C7",
+   "gpio": "GPIO3_C7",
+   "domain": "1.8V",
+   "desc": "GPIO3_C7, for 1.8V"
+  },
+  "23": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "24": {
+   "signal": "GPIO3_D1",
+   "gpio": "GPIO3_D1",
+   "domain": "1.8V",
+   "desc": "PCIE20x1_2_PERSTn_M0 GPIO3_D1, for 1.8V UART9_TX_M2_BT"
+  },
+  "25": {
+   "signal": "MIPI_DPHY1_RX_CLKP",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY1_RX_CLKP"
+  },
+  "26": {
+   "signal": "GPIO3_D5",
+   "gpio": "GPIO3_D5",
+   "domain": "1.8V",
+   "desc": "GPIO3_D5, for 1.8V"
+  },
+  "27": {
+   "signal": "MIPI_DPHY1_RX_CLKN",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY1_RX_CLKN"
+  },
+  "28": {
+   "signal": "GPIO3_D2",
+   "gpio": "GPIO3_D2",
+   "domain": "1.8V",
+   "desc": "UART9_RTSN_M2_BT GPIO3_D2, for 1.8V"
+  },
+  "29": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "30": {
+   "signal": "GPIO3_D4",
+   "gpio": "GPIO3_D4",
+   "domain": "1.8V",
+   "desc": "UART9_RX_M2_BT GPIO3_D4, for 1.8V"
+  },
+  "31": {
+   "signal": "MIPI_DPHY1_RX_D1P",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY1_RX_D1P"
+  },
+  "32": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "33": {
+   "signal": "MIPI_DPHY1_RX_D1N",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY1_RX_D1N"
+  },
+  "34": {
+   "signal": "GPIO3_B7",
+   "gpio": "GPIO3_B7",
+   "domain": "1.8V",
+   "desc": "GPIO3_B7,for 1.8V"
+  },
+  "35": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "36": {
+   "signal": "GPIO3_C5",
+   "gpio": "GPIO3_C5",
+   "domain": "1.8V",
+   "desc": "GPIO3_C5,for 1.8V"
+  },
+  "37": {
+   "signal": "MIPI_DPHY1_RX_D0P",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY1_RX_D0P"
+  },
+  "38": {
+   "signal": "GPIO3_C4",
+   "gpio": "GPIO3_C4",
+   "domain": "1.8V",
+   "desc": "GPIO3_C4,for 1.8V"
+  },
+  "39": {
+   "signal": "MIPI_DPHY1_RX_D0N",
+   "gpio": null,
+   "domain": null,
+   "desc": "MIPI_DPHY1_RX_D0N"
+  },
+  "40": {
+   "signal": "GPIO3_D3",
+   "gpio": "GPIO3_D3",
+   "domain": "1.8V",
+   "desc": "UART9_CTSN_M2_BT GPIO3_D3, for 1.8V"
+  },
+  "41": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "42": {
+   "signal": "GPIO3_A1",
+   "gpio": "GPIO3_A1",
+   "domain": "1.8V",
+   "desc": "GMAC_TXD3/SDIO_D1 GPIO3_A1, for 1.8V"
+  },
+  "43": {
+   "signal": "GPIO3_D0",
+   "gpio": "GPIO3_D0",
+   "domain": "1.8V",
+   "desc": "PCIE20x1_2_WAKEn_M0 GPIO3_D0, for 1.8V"
+  },
+  "44": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "45": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "46": {
+   "signal": "GPIO3_B3",
+   "gpio": "GPIO3_B3",
+   "domain": "1.8V",
+   "desc": "GMAC_TXD0 GPIO3_B3, for 1.8V"
+  },
+  "47": {
+   "signal": "GPIO3_A0",
+   "gpio": "GPIO3_A0",
+   "domain": "1.8V",
+   "desc": "GMAC_TXD2/SDIO_D0 GPIO3_A0, for 1.8V"
+  },
+  "48": {
+   "signal": "GPIO3_B2",
+   "gpio": "GPIO3_B2",
+   "domain": "1.8V",
+   "desc": "GMAC_TXER/PWM3_IR GPIO3_B2, for 1.8V"
+  },
+  "49": {
+   "signal": "GPIO3_B4",
+   "gpio": "GPIO3_B4",
+   "domain": "1.8V",
+   "desc": "GMAC_TXD1 GPIO3_B4, for 1.8V"
+  },
+  "50": {
+   "signal": "GPIO3_C1",
+   "gpio": "GPIO3_C1",
+   "domain": "1.8V",
+   "desc": "GPIO3_C1,for 1.8V"
+  },
+  "51": {
+   "signal": "GPIO3_B5",
+   "gpio": "GPIO3_B5",
+   "domain": "1.8V",
+   "desc": "GMAC_TXEN/PWM12 GPIO3_B5, for 1.8V"
+  },
+  "52": {
+   "signal": "GPIO3_A6",
+   "gpio": "GPIO3_A6",
+   "domain": "1.8V",
+   "desc": "MIPI_CLK1 GPIO3_A6, for 1.8V"
+  },
+  "53": {
+   "signal": "GPIO3_C3",
+   "gpio": "GPIO3_C3",
+   "domain": "1.8V",
+   "desc": "GMAC_MDIO GPIO3_C3, for 1.8V"
+  },
+  "54": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "55": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "56": {
+   "signal": "GPIO3_B0",
+   "gpio": "GPIO3_B0",
+   "domain": "1.8V",
+   "desc": "GMAC_RXD1/MIPI_CLK3/PWM9 GPIO3_B0, for 1.8V"
+  },
+  "57": {
+   "signal": "GPIO3_B6",
+   "gpio": "GPIO3_B6",
+   "domain": "1.8V",
+   "desc": "GMAC_MCLK/PWM13 GPIO3_B6, for 1.8V"
+  },
+  "58": {
+   "signal": "GPIO3_A5",
+   "gpio": "GPIO3_A5",
+   "domain": "1.8V",
+   "desc": "GMAC_RXCLK/SDIO_CLK GPIO3_A5, for 1.8V"
+  },
+  "59": {
+   "signal": "GPIO3_B1",
+   "gpio": "GPIO3_B1",
+   "domain": "1.8V",
+   "desc": "GMAC_RXDV/MIPI_CLK4/PWM2 GPIO3_B1, for 1.8V"
+  },
+  "60": {
+   "signal": "GPIO3_A7",
+   "gpio": "GPIO3_A7",
+   "domain": "1.8V",
+   "desc": "GMAC_RXD0/MIPI_CLK2/PWM8 GPIO3_A7, for 1.8V"
+  },
+  "61": {
+   "signal": "GPIO3_A2",
+   "gpio": "GPIO3_A2",
+   "domain": "1.8V",
+   "desc": "GPIO3_A2, for 1.8V"
+  },
+  "62": {
+   "signal": "GPIO3_A4",
+   "gpio": "GPIO3_A4",
+   "domain": "1.8V",
+   "desc": "GPIO3_A4, for 1.8V"
+  },
+  "63": {
+   "signal": "GPIO3_A3",
+   "gpio": "GPIO3_A3",
+   "domain": "1.8V",
+   "desc": "GMAC_RXD3/SDIO_D3 GPIO3_A3, for 1.8V"
+  },
+  "64": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "65": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "66": {
+   "signal": "GPIO0_B0",
+   "gpio": "GPIO0_B0",
+   "domain": "1.8V",
+   "desc": "GPIO0_B0, for 1.8V"
+  },
+  "67": {
+   "signal": "GPIO0_A0",
+   "gpio": "GPIO0_A0",
+   "domain": "1.8V",
+   "desc": "REFCLK_OUT/GPIO0_A0 , for 1.8V"
+  },
+  "68": {
+   "signal": "I2S0_MCLK",
+   "gpio": "GPIO1_C2",
+   "domain": "1.8V",
+   "desc": "I2S0_MCLK GPIO1_C2, for 1.8V"
+  },
+  "69": {
+   "signal": "I2S0_LRCK",
+   "gpio": "GPIO1_C5",
+   "domain": "1.8V",
+   "desc": "I2S0_LRCK GPIO1_C5, for 1.8V"
+  },
+  "70": {
+   "signal": "I2S0_SDO0",
+   "gpio": "GPIO1_C7",
+   "domain": "1.8V",
+   "desc": "I2S0_SDO0 GPIO1_C7, for 1.8V"
+  },
+  "71": {
+   "signal": "I2S0_SCLK",
+   "gpio": "GPIO1_C3",
+   "domain": "1.8V",
+   "desc": "I2S0_SCLK GPIO1_C3, for 1.8V"
+  },
+  "72": {
+   "signal": "GPIO3_C0",
+   "gpio": "GPIO3_C0",
+   "domain": "1.8V",
+   "desc": "GPIO3_C0, for 1.8V"
+  },
+  "73": {
+   "signal": "I2S0_SDI0",
+   "gpio": "GPIO1_D4",
+   "domain": "1.8V",
+   "desc": "I2S0_SDI0 GPIO1_D4, for 1.8V"
+  },
+  "74": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "75": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "76": {
+   "signal": "PCIE20_0_REFCLKP",
+   "gpio": null,
+   "domain": null,
+   "desc": "PCIE20_0_REFCLKP"
+  },
+  "77": {
+   "signal": "GPIO0_D5",
+   "gpio": "GPIO0_D5",
+   "domain": "1.8V",
+   "desc": "GPIO0_D5, for 1.8V"
+  },
+  "78": {
+   "signal": "PCIE20_0_REFCLKN",
+   "gpio": null,
+   "domain": null,
+   "desc": "PCIE20_0_REFCLKN"
+  },
+  "79": {
+   "signal": "GPIO0_C7",
+   "gpio": "GPIO0_C7",
+   "domain": "1.8V",
+   "desc": "GPIO0_C7, for 1.8V"
+  },
+  "80": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "81": {
+   "signal": "GPIO0_D4",
+   "gpio": "GPIO0_D4",
+   "domain": "1.8V",
+   "desc": "GPIO0_D4, for 1.8V"
+  },
+  "82": {
+   "signal": "PCIE20_0_TXP",
+   "gpio": null,
+   "domain": null,
+   "desc": "PCIE20_0_TXP"
+  },
+  "83": {
+   "signal": "GPIO0_C4",
+   "gpio": "GPIO0_C4",
+   "domain": "1.8V",
+   "desc": "GPIO0_C4, for 1.8V"
+  },
+  "84": {
+   "signal": "PCIE20_0_TXN",
+   "gpio": null,
+   "domain": null,
+   "desc": "PCIE20_0_TXN"
+  },
+  "85": {
+   "signal": "GPIO0_D3",
+   "gpio": "GPIO0_D3",
+   "domain": "1.8V",
+   "desc": "GPIO0_D3, for 1.8V"
+  },
+  "86": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "87": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "88": {
+   "signal": "PCIE20_0_RXN",
+   "gpio": null,
+   "domain": null,
+   "desc": "PCIE20_0_RXN"
+  },
+  "89": {
+   "signal": "GPIO0_D0",
+   "gpio": "GPIO0_D0",
+   "domain": "1.8V",
+   "desc": "GPIO0_D0, for 1.8V"
+  },
+  "90": {
+   "signal": "PCIE20_0_RXP",
+   "gpio": null,
+   "domain": null,
+   "desc": "PCIE20_0_RXP"
+  },
+  "91": {
+   "signal": "GPIO3_C2",
+   "gpio": "GPIO3_C2",
+   "domain": "1.8V",
+   "desc": "GMAC_MDC GPIO3_C2, for 1.8V"
+  },
+  "92": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "93": {
+   "signal": "GPIO4_A3",
+   "gpio": "GPIO4_A3",
+   "domain": "3.3V",
+   "desc": "GPIO4_A3, for 3.3V"
+  },
+  "94": {
+   "signal": "GPIO0_C5",
+   "gpio": "GPIO0_C5",
+   "domain": "1.8V",
+   "desc": "GPIO0_C5, for 1.8V"
+  },
+  "95": {
+   "signal": "GPIO4_B3",
+   "gpio": "GPIO4_B3",
+   "domain": "3.3V",
+   "desc": "CAN1_TX_M1/GPIO4_B3, for 3.3V"
+  },
+  "96": {
+   "signal": "GPIO0_B2",
+   "gpio": "GPIO0_B2",
+   "domain": "1.8V",
+   "desc": "CLK32K_IN/GPIO0_B2, for 1.8V"
+  },
+  "97": {
+   "signal": "GPIO4_B2",
+   "gpio": "GPIO4_B2",
+   "domain": "3.3V",
+   "desc": "CAN1_RX_M1/GPIO4_B2, for 3.3V"
+  },
+  "98": {
+   "signal": "GPIO0_C6",
+   "gpio": "GPIO0_C6",
+   "domain": "1.8V",
+   "desc": "GPIO0_C6, for 1.8V"
+  },
+  "99": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  },
+  "100": {
+   "signal": "GND",
+   "gpio": null,
+   "domain": null,
+   "desc": "Ground (0V)"
+  }
+ }
+}

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900">
+
+<style>
+ .t{font:13px sans-serif;fill:#1b1b1b}.s{font:11px sans-serif;fill:#444}.h{font:bold 14px sans-serif;fill:#1b1b1b}
+ .ti{font:bold 18px sans-serif;fill:#1b1b1b}.l{font:11px sans-serif;fill:#1d4e89}
+ .bx{stroke:#333;stroke-width:1.2;rx:6}.ln{stroke:#555;stroke-width:1.4;fill:none}
+ .hs{stroke:#b5172d;stroke-width:2.2;fill:none}.pw{stroke:#c26a00;stroke-width:2.4;fill:none}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b5172d"/></marker>
+<marker id="ap" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c26a00"/></marker></defs>
+
+<rect width="1500" height="900" fill="#ffffff"/>
+<text class="ti" x="16" y="28">CM5 handheld: power tree (checkpoint 1). Numbers: worst-case load at the rail</text>
+<rect class="bx" x="30" y="80" width="220" height="90" rx="6" fill="#f4f4f4"/>
+<text class="h" x="38" y="98">USB-C VBUS 5-20 V</text>
+<text class="s" x="38" y="114">PD sink, max 7 A path</text>
+<text class="s" x="38" y="128">TPS25751 negotiates 5/9/12 V</text>
+<rect class="bx" x="30" y="210" width="220" height="110" rx="6" fill="#fdebd3"/>
+<text class="h" x="38" y="228">TPS25751D</text>
+<text class="s" x="38" y="244">VIN_3V3 &lt;- always-on LDO</text>
+<text class="s" x="38" y="258">boots from &gt;= 36 KB EEPROM (0x50)</text>
+<text class="s" x="38" y="272">I2C controller -&gt; BQ25713 + EEPROM</text>
+<text class="s" x="38" y="286">I2C target -&gt; SoC I2C3</text>
+<path class="pw" d="M140,170 L140,210" marker-end="url(#ap)"/>
+<rect class="bx" x="300" y="160" width="250" height="140" rx="6" fill="#fdebd3"/>
+<text class="h" x="308" y="178">BQ25713 (1S NVDC controller)</text>
+<text class="s" x="308" y="194">VBUS 3.5-24 V in, 4 ext. N-FETs</text>
+<text class="s" x="308" y="208">ICHG 2.5 A, VREG 4.2 V (PD config)</text>
+<text class="s" x="308" y="222">VSYSMIN 3.584 V (1S default)</text>
+<text class="s" x="308" y="236">ext. P-ch BATFET sized &gt;= 12 A</text>
+<text class="s" x="308" y="250">no TS pin: NTC window comp -&gt; HIZ</text>
+<path class="pw" d="M250,265 L300,230" marker-end="url(#ap)"/>
+<text class="l" x="255" y="240">PPHV</text>
+<rect class="bx" x="300" y="360" width="250" height="110" rx="6" fill="#f4f4f4"/>
+<text class="h" x="308" y="378">Battery 1S Li-ion 5000 mAh</text>
+<text class="s" x="308" y="394">PCM &gt;= 12 A (decision Q4)</text>
+<text class="s" x="308" y="408">9-pin: 4 x BAT+, 4 x GND, NTC (12 A)</text>
+<text class="s" x="308" y="422">MAX17055 + sense resistor</text>
+<path class="pw" d="M425,360 L425,300" marker-end="url(#ap)" marker-start="url(#ap)"/>
+<text class="l" x="432" y="335">BAT</text>
+<rect class="bx" x="620" y="400" width="200" height="60" rx="6" fill="#fdebd3"/>
+<text class="h" x="628" y="418">VSYS 3.0-4.5 V</text>
+<text class="s" x="628" y="434">NVDC; &gt;= 3.584 V on adapter</text>
+<path class="pw" d="M550,230 L720,230 L720,400" marker-end="url(#ap)"/>
+<rect class="bx" x="900" y="60" width="300" height="72" rx="6" fill="#fdebd3"/>
+<text class="h" x="908" y="78">TPS61088 boost</text>
+<text class="s" x="908" y="94">4.8 V CM5_VIN</text>
+<text class="s" x="908" y="108">CM5: 12 W max (2.5 A)</text>
+<text class="s" x="908" y="122">EN: always (RK806 does on/off)</text>
+<path class="pw" d="M820,430 L860,430 L860,82 L900,82" marker-end="url(#ap)"/>
+<text class="l" x="1210" y="86">-&gt; CM5 VCC_SYSIN x6 pins</text>
+<rect class="bx" x="900" y="175" width="300" height="72" rx="6" fill="#fdebd3"/>
+<text class="h" x="908" y="193">TPS61089 boost</text>
+<text class="s" x="908" y="209">5.1 V VCC5V0</text>
+<text class="s" x="908" y="223">USB-A 2 x 0.5 A, keyboard, CAM-A 5 V</text>
+<text class="s" x="908" y="237">EN: VCC_3V3_S3 (on with CM5)</text>
+<path class="pw" d="M820,430 L860,430 L860,197 L900,197" marker-end="url(#ap)"/>
+<text class="l" x="1210" y="201">-&gt; TPS2553 x2 -&gt; USB-A; switch -&gt; KBD FFC</text>
+<rect class="bx" x="900" y="290" width="300" height="86" rx="6" fill="#fdebd3"/>
+<text class="h" x="908" y="308">TPS63020 buck-boost</text>
+<text class="s" x="908" y="324">3.7 V VCC_LTE</text>
+<text class="s" x="908" y="338">EM060K-GL: 1.07 A max listed</text>
+<text class="s" x="908" y="352">2 x 220 uF low-ESR + MLCC array</text>
+<text class="s" x="908" y="366">EN: GPIO0_C7</text>
+<path class="pw" d="M820,430 L860,430 L860,312 L900,312" marker-end="url(#ap)"/>
+<text class="l" x="1210" y="316">-&gt; M.2 Key-B VCC pins 2,4,70,72,74</text>
+<rect class="bx" x="900" y="420" width="300" height="72" rx="6" fill="#fdebd3"/>
+<text class="h" x="908" y="438">TPS63020 buck-boost</text>
+<text class="s" x="908" y="454">3.3 V VCC3V3_AUX</text>
+<text class="s" x="908" y="468">AP6275P VBAT 1.2 A peak, hub, CAM-B</text>
+<text class="s" x="908" y="482">EN: VCC_3V3_S3</text>
+<path class="pw" d="M820,430 L860,430 L860,442 L900,442" marker-end="url(#ap)"/>
+<text class="l" x="1210" y="446">-&gt; AP6275P, USB2514B, cameras</text>
+<rect class="bx" x="900" y="535" width="300" height="58" rx="6" fill="#fdebd3"/>
+<text class="h" x="908" y="553">TPS61169 LED boost</text>
+<text class="s" x="908" y="569">18.6 V / 40 mA backlight</text>
+<text class="s" x="908" y="583">CTRL &lt;- PWM15_M1</text>
+<path class="pw" d="M820,430 L860,430 L860,557 L900,557" marker-end="url(#ap)"/>
+<text class="l" x="1210" y="561">-&gt; panel LEDA/LEDK</text>
+<rect class="bx" x="900" y="635" width="300" height="58" rx="6" fill="#fdebd3"/>
+<text class="h" x="908" y="653">2 x MAX98357A</text>
+<text class="s" x="908" y="669">from VSYS directly</text>
+<text class="s" x="908" y="683">~0.8 W/ch into 8 ohm</text>
+<path class="pw" d="M820,430 L860,430 L860,657 L900,657" marker-end="url(#ap)"/>
+<text class="l" x="1210" y="661">-&gt; speakers</text>
+<rect class="bx" x="900" y="735" width="300" height="58" rx="6" fill="#fdebd3"/>
+<text class="h" x="908" y="753">Always-on LDO 3.3 V (XC6206)</text>
+<text class="s" x="908" y="769">TPS25751 VIN_3V3, HT8563 RTC</text>
+<text class="s" x="908" y="783">Iq ~1 uA</text>
+<path class="pw" d="M820,430 L860,430 L860,757 L900,757" marker-end="url(#ap)"/>
+<rect class="bx" x="300" y="540" width="250" height="165" rx="6" fill="#dfe9f7"/>
+<text class="h" x="308" y="558">CM5 on-module outputs</text>
+<text class="s" x="308" y="574">VCC_3V3_S3 (600 mA max):</text>
+<text class="s" x="308" y="588">  microSD VDD, panel VCI (load sw),</text>
+<text class="s" x="308" y="602">  GT911, pull-ups, shifter B-side</text>
+<text class="s" x="308" y="616">VCC_1V8_S0 (600 mA max):</text>
+<text class="s" x="308" y="630">  panel IOVCC, AP6275P VDDIO,</text>
+<text class="s" x="308" y="644">  PDM mic, shifter A-side</text>
+<text class="s" x="308" y="658">(fed from CM5_VIN by on-module RK806)</text>
+<text class="h" x="30" y="760">Budget at the battery (all loads at max at once): 33.6 W from VSYS = 9.3 A @ 3.7 V, 9.8 A @ 3.5 V.</text>
+<text class="t" x="30" y="784">Battery path (connector 12 A, PCM &gt;= 12 A, external BATFET, sense resistors) is sized for the full worst case; PROCHOT# warns Linux.</text>
+<text class="t" x="30" y="806">Realistic heavy use 13.9 W (3.8 A @ 3.7 V); light use 5.1 W (1.4 A).</text>
+</svg>

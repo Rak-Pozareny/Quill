@@ -1,0 +1,2884 @@
+{
+ "D_in_0.090_0.090": {
+  "Z": 89.5423755814,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 3.543,
+   "T1": 0.6,
+   "W1": 3.543,
+   "W2": 3.043,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.090_0.100": {
+  "Z": 91.7726370403,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 3.937,
+   "T1": 0.6,
+   "W1": 3.543,
+   "W2": 3.043,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.090_0.110": {
+  "Z": 93.7509427373,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 4.331,
+   "T1": 0.6,
+   "W1": 3.543,
+   "W2": 3.043,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.090_0.125": {
+  "Z": 96.3177504925,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 4.921,
+   "T1": 0.6,
+   "W1": 3.543,
+   "W2": 3.043,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.090_0.150": {
+  "Z": 99.7937559496,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 5.906,
+   "T1": 0.6,
+   "W1": 3.543,
+   "W2": 3.043,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.090_0.175": {
+  "Z": 102.488328849,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 6.89,
+   "T1": 0.6,
+   "W1": 3.543,
+   "W2": 3.043,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.090_0.200": {
+  "Z": 104.62317848,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 7.874,
+   "T1": 0.6,
+   "W1": 3.543,
+   "W2": 3.043,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.090_0.250": {
+  "Z": 107.75979394,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 9.843,
+   "T1": 0.6,
+   "W1": 3.543,
+   "W2": 3.043,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.100_0.090": {
+  "Z": 86.1668523202,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 3.543,
+   "T1": 0.6,
+   "W1": 3.937,
+   "W2": 3.437,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.100_0.100": {
+  "Z": 88.2606833323,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 3.937,
+   "T1": 0.6,
+   "W1": 3.937,
+   "W2": 3.437,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.100_0.110": {
+  "Z": 90.1179239323,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 4.331,
+   "T1": 0.6,
+   "W1": 3.937,
+   "W2": 3.437,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.100_0.125": {
+  "Z": 92.5279935882,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 4.921,
+   "T1": 0.6,
+   "W1": 3.937,
+   "W2": 3.437,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.100_0.150": {
+  "Z": 95.7928573199,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 5.906,
+   "T1": 0.6,
+   "W1": 3.937,
+   "W2": 3.437,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.100_0.175": {
+  "Z": 98.3255545598,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 6.89,
+   "T1": 0.6,
+   "W1": 3.937,
+   "W2": 3.437,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.100_0.200": {
+  "Z": 100.335511911,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 7.874,
+   "T1": 0.6,
+   "W1": 3.937,
+   "W2": 3.437,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.100_0.250": {
+  "Z": 103.295495926,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 9.843,
+   "T1": 0.6,
+   "W1": 3.937,
+   "W2": 3.437,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.110_0.090": {
+  "Z": 83.1191361747,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 3.543,
+   "T1": 0.6,
+   "W1": 4.331,
+   "W2": 3.831,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.110_0.100": {
+  "Z": 85.0902480392,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 3.937,
+   "T1": 0.6,
+   "W1": 4.331,
+   "W2": 3.831,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.110_0.110": {
+  "Z": 86.8385388536,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 4.331,
+   "T1": 0.6,
+   "W1": 4.331,
+   "W2": 3.831,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.110_0.125": {
+  "Z": 89.1069505008,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 4.921,
+   "T1": 0.6,
+   "W1": 4.331,
+   "W2": 3.831,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.110_0.150": {
+  "Z": 92.1827369502,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 5.906,
+   "T1": 0.6,
+   "W1": 4.331,
+   "W2": 3.831,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.110_0.175": {
+  "Z": 94.5699522141,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 6.89,
+   "T1": 0.6,
+   "W1": 4.331,
+   "W2": 3.831,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.110_0.200": {
+  "Z": 96.4665525021,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 7.874,
+   "T1": 0.6,
+   "W1": 4.331,
+   "W2": 3.831,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.110_0.250": {
+  "Z": 99.2654699791,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 9.843,
+   "T1": 0.6,
+   "W1": 4.331,
+   "W2": 3.831,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.120_0.090": {
+  "Z": 80.3482431276,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 3.543,
+   "T1": 0.6,
+   "W1": 4.724,
+   "W2": 4.224,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.120_0.100": {
+  "Z": 82.2088633109,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 3.937,
+   "T1": 0.6,
+   "W1": 4.724,
+   "W2": 4.224,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.120_0.110": {
+  "Z": 83.8640696483,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 4.331,
+   "T1": 0.6,
+   "W1": 4.724,
+   "W2": 4.224,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.120_0.125": {
+  "Z": 86.0062582557,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 4.921,
+   "T1": 0.6,
+   "W1": 4.724,
+   "W2": 4.224,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.120_0.150": {
+  "Z": 88.8972874278,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 5.906,
+   "T1": 0.6,
+   "W1": 4.724,
+   "W2": 4.224,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.120_0.175": {
+  "Z": 91.1632159287,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 6.89,
+   "T1": 0.6,
+   "W1": 4.724,
+   "W2": 4.224,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.120_0.200": {
+  "Z": 92.9567834064,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 7.874,
+   "T1": 0.6,
+   "W1": 4.724,
+   "W2": 4.224,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.120_0.250": {
+  "Z": 95.6114077826,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 9.843,
+   "T1": 0.6,
+   "W1": 4.724,
+   "W2": 4.224,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.130_0.090": {
+  "Z": 77.806989967,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 3.543,
+   "T1": 0.6,
+   "W1": 5.118,
+   "W2": 4.618,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.130_0.100": {
+  "Z": 79.5656911281,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 3.937,
+   "T1": 0.6,
+   "W1": 5.118,
+   "W2": 4.618,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.130_0.110": {
+  "Z": 81.1335190335,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 4.331,
+   "T1": 0.6,
+   "W1": 5.118,
+   "W2": 4.618,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.130_0.125": {
+  "Z": 83.1572903444,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 4.921,
+   "T1": 0.6,
+   "W1": 5.118,
+   "W2": 4.618,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.130_0.150": {
+  "Z": 85.8918767883,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 5.906,
+   "T1": 0.6,
+   "W1": 5.118,
+   "W2": 4.618,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.130_0.175": {
+  "Z": 88.0367607246,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 6.89,
+   "T1": 0.6,
+   "W1": 5.118,
+   "W2": 4.618,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.130_0.200": {
+  "Z": 89.7358689741,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 7.874,
+   "T1": 0.6,
+   "W1": 5.118,
+   "W2": 4.618,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.130_0.250": {
+  "Z": 92.2463274712,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 9.843,
+   "T1": 0.6,
+   "W1": 5.118,
+   "W2": 4.618,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.140_0.090": {
+  "Z": 75.4625572331,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 3.543,
+   "T1": 0.6,
+   "W1": 5.512,
+   "W2": 5.012,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.140_0.100": {
+  "Z": 77.1355995248,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 3.937,
+   "T1": 0.6,
+   "W1": 5.512,
+   "W2": 5.012,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.140_0.110": {
+  "Z": 78.6157864732,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 4.331,
+   "T1": 0.6,
+   "W1": 5.512,
+   "W2": 5.012,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.140_0.125": {
+  "Z": 80.533463121,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 4.921,
+   "T1": 0.6,
+   "W1": 5.512,
+   "W2": 5.012,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.140_0.150": {
+  "Z": 83.1251065758,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 5.906,
+   "T1": 0.6,
+   "W1": 5.512,
+   "W2": 5.012,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.140_0.175": {
+  "Z": 85.1591596083,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 6.89,
+   "T1": 0.6,
+   "W1": 5.512,
+   "W2": 5.012,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.140_0.200": {
+  "Z": 86.7716159758,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 7.874,
+   "T1": 0.6,
+   "W1": 5.512,
+   "W2": 5.012,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.140_0.250": {
+  "Z": 89.1578374294,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 9.843,
+   "T1": 0.6,
+   "W1": 5.512,
+   "W2": 5.012,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.150_0.090": {
+  "Z": 73.2802828299,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 3.543,
+   "T1": 0.6,
+   "W1": 5.906,
+   "W2": 5.406,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.150_0.100": {
+  "Z": 74.8811948307,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 3.937,
+   "T1": 0.6,
+   "W1": 5.906,
+   "W2": 5.406,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.150_0.110": {
+  "Z": 76.2845286684,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 4.331,
+   "T1": 0.6,
+   "W1": 5.906,
+   "W2": 5.406,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.150_0.125": {
+  "Z": 78.1050345311,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 4.921,
+   "T1": 0.6,
+   "W1": 5.906,
+   "W2": 5.406,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.150_0.150": {
+  "Z": 80.565621347,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 5.906,
+   "T1": 0.6,
+   "W1": 5.906,
+   "W2": 5.406,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.150_0.175": {
+  "Z": 82.49787101,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 6.89,
+   "T1": 0.6,
+   "W1": 5.906,
+   "W2": 5.406,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.150_0.200": {
+  "Z": 84.0305962585,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 7.874,
+   "T1": 0.6,
+   "W1": 5.906,
+   "W2": 5.406,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.150_0.250": {
+  "Z": 86.3021452539,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 9.843,
+   "T1": 0.6,
+   "W1": 5.906,
+   "W2": 5.406,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.160_0.090": {
+  "Z": 71.2693364993,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 3.543,
+   "T1": 0.6,
+   "W1": 6.299,
+   "W2": 5.799,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.160_0.100": {
+  "Z": 72.7870745055,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 3.937,
+   "T1": 0.6,
+   "W1": 6.299,
+   "W2": 5.799,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.160_0.110": {
+  "Z": 74.1219149484,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 4.331,
+   "T1": 0.6,
+   "W1": 6.299,
+   "W2": 5.799,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.160_0.125": {
+  "Z": 75.8533459769,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 4.921,
+   "T1": 0.6,
+   "W1": 6.299,
+   "W2": 5.799,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.160_0.150": {
+  "Z": 78.1936874121,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 5.906,
+   "T1": 0.6,
+   "W1": 6.299,
+   "W2": 5.799,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.160_0.175": {
+  "Z": 80.032377518,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 6.89,
+   "T1": 0.6,
+   "W1": 6.299,
+   "W2": 5.799,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.160_0.200": {
+  "Z": 81.4940193988,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 7.874,
+   "T1": 0.6,
+   "W1": 6.299,
+   "W2": 5.799,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_in_0.160_0.250": {
+  "Z": 83.6574033266,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "S1": 9.843,
+   "T1": 0.6,
+   "W1": 6.299,
+   "W2": 5.799,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffOffsetStripline1B1A"
+ },
+ "D_out_0.090_0.090": {
+  "Z": 93.3323147474,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 3.543,
+   "T1": 1.6,
+   "W1": 3.543,
+   "W2": 3.043,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.090_0.100": {
+  "Z": 96.2958045805,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 3.937,
+   "T1": 1.6,
+   "W1": 3.543,
+   "W2": 3.043,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.090_0.110": {
+  "Z": 98.9259463357,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 4.331,
+   "T1": 1.6,
+   "W1": 3.543,
+   "W2": 3.043,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.090_0.125": {
+  "Z": 102.276439475,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 4.921,
+   "T1": 1.6,
+   "W1": 3.543,
+   "W2": 3.043,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.090_0.150": {
+  "Z": 106.738610044,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 5.906,
+   "T1": 1.6,
+   "W1": 3.543,
+   "W2": 3.043,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.090_0.175": {
+  "Z": 110.163532941,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 6.89,
+   "T1": 1.6,
+   "W1": 3.543,
+   "W2": 3.043,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.090_0.200": {
+  "Z": 112.798101897,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 7.874,
+   "T1": 1.6,
+   "W1": 3.543,
+   "W2": 3.043,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.090_0.250": {
+  "Z": 116.565488554,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 9.843,
+   "T1": 1.6,
+   "W1": 3.543,
+   "W2": 3.043,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.100_0.090": {
+  "Z": 90.3102562916,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 3.543,
+   "T1": 1.6,
+   "W1": 3.937,
+   "W2": 3.437,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.100_0.100": {
+  "Z": 93.101045526,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 3.937,
+   "T1": 1.6,
+   "W1": 3.937,
+   "W2": 3.437,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.100_0.110": {
+  "Z": 95.5734002628,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 4.331,
+   "T1": 1.6,
+   "W1": 3.937,
+   "W2": 3.437,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.100_0.125": {
+  "Z": 98.7233872509,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 4.921,
+   "T1": 1.6,
+   "W1": 3.937,
+   "W2": 3.437,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.100_0.150": {
+  "Z": 102.915069473,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 5.906,
+   "T1": 1.6,
+   "W1": 3.937,
+   "W2": 3.437,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.100_0.175": {
+  "Z": 106.133811464,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 6.89,
+   "T1": 1.6,
+   "W1": 3.937,
+   "W2": 3.437,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.100_0.200": {
+  "Z": 108.609876971,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 7.874,
+   "T1": 1.6,
+   "W1": 3.937,
+   "W2": 3.437,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.100_0.250": {
+  "Z": 112.15314498,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 9.843,
+   "T1": 1.6,
+   "W1": 3.937,
+   "W2": 3.437,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.110_0.090": {
+  "Z": 87.5195777395,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 3.543,
+   "T1": 1.6,
+   "W1": 4.331,
+   "W2": 3.831,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.110_0.100": {
+  "Z": 90.1535108772,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 3.937,
+   "T1": 1.6,
+   "W1": 4.331,
+   "W2": 3.831,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.110_0.110": {
+  "Z": 92.4873934742,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 4.331,
+   "T1": 1.6,
+   "W1": 4.331,
+   "W2": 3.831,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.110_0.125": {
+  "Z": 95.4572707367,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 4.921,
+   "T1": 1.6,
+   "W1": 4.331,
+   "W2": 3.831,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.110_0.150": {
+  "Z": 99.4019549991,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 5.906,
+   "T1": 1.6,
+   "W1": 4.331,
+   "W2": 3.831,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.110_0.175": {
+  "Z": 102.436521659,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 6.89,
+   "T1": 1.6,
+   "W1": 4.331,
+   "W2": 3.831,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.110_0.200": {
+  "Z": 104.765337667,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 7.874,
+   "T1": 1.6,
+   "W1": 4.331,
+   "W2": 3.831,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.110_0.250": {
+  "Z": 108.098854371,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 9.843,
+   "T1": 1.6,
+   "W1": 4.331,
+   "W2": 3.831,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.120_0.090": {
+  "Z": 84.9463630192,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 3.543,
+   "T1": 1.6,
+   "W1": 4.724,
+   "W2": 4.224,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.120_0.100": {
+  "Z": 87.436867195,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 3.937,
+   "T1": 1.6,
+   "W1": 4.724,
+   "W2": 4.224,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.120_0.110": {
+  "Z": 89.6415116647,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 4.331,
+   "T1": 1.6,
+   "W1": 4.724,
+   "W2": 4.224,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.120_0.125": {
+  "Z": 92.4470148194,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 4.921,
+   "T1": 1.6,
+   "W1": 4.724,
+   "W2": 4.224,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.120_0.150": {
+  "Z": 96.1745675495,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 5.906,
+   "T1": 1.6,
+   "W1": 4.724,
+   "W2": 4.224,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.120_0.175": {
+  "Z": 99.0337652496,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 6.89,
+   "T1": 1.6,
+   "W1": 4.724,
+   "W2": 4.224,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.120_0.200": {
+  "Z": 101.229931247,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 7.874,
+   "T1": 1.6,
+   "W1": 4.724,
+   "W2": 4.224,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.120_0.250": {
+  "Z": 104.384009524,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 9.843,
+   "T1": 1.6,
+   "W1": 4.724,
+   "W2": 4.224,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.130_0.090": {
+  "Z": 82.5476928294,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 3.543,
+   "T1": 1.6,
+   "W1": 5.118,
+   "W2": 4.618,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.130_0.100": {
+  "Z": 84.9087434549,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 3.937,
+   "T1": 1.6,
+   "W1": 5.118,
+   "W2": 4.618,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.130_0.110": {
+  "Z": 86.9965359967,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 4.331,
+   "T1": 1.6,
+   "W1": 5.118,
+   "W2": 4.618,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.130_0.125": {
+  "Z": 89.6511132777,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 4.921,
+   "T1": 1.6,
+   "W1": 5.118,
+   "W2": 4.618,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.130_0.150": {
+  "Z": 93.1743775834,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 5.906,
+   "T1": 1.6,
+   "W1": 5.118,
+   "W2": 4.618,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.130_0.175": {
+  "Z": 95.8773483897,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 6.89,
+   "T1": 1.6,
+   "W1": 5.118,
+   "W2": 4.618,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.130_0.200": {
+  "Z": 97.9540894072,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 7.874,
+   "T1": 1.6,
+   "W1": 5.118,
+   "W2": 4.618,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.130_0.250": {
+  "Z": 100.942626709,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 9.843,
+   "T1": 1.6,
+   "W1": 5.118,
+   "W2": 4.618,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.140_0.090": {
+  "Z": 80.3042003163,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 3.543,
+   "T1": 1.6,
+   "W1": 5.512,
+   "W2": 5.012,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.140_0.100": {
+  "Z": 82.5468199703,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 3.937,
+   "T1": 1.6,
+   "W1": 5.512,
+   "W2": 5.012,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.140_0.110": {
+  "Z": 84.5289643124,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 4.331,
+   "T1": 1.6,
+   "W1": 5.512,
+   "W2": 5.012,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.140_0.125": {
+  "Z": 87.0439772149,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 4.921,
+   "T1": 1.6,
+   "W1": 5.512,
+   "W2": 5.012,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.140_0.150": {
+  "Z": 90.3816430633,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 5.906,
+   "T1": 1.6,
+   "W1": 5.512,
+   "W2": 5.012,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.140_0.175": {
+  "Z": 92.9432390496,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 6.89,
+   "T1": 1.6,
+   "W1": 5.512,
+   "W2": 5.012,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.140_0.200": {
+  "Z": 94.9165522208,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 7.874,
+   "T1": 1.6,
+   "W1": 5.512,
+   "W2": 5.012,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.140_0.250": {
+  "Z": 97.7477610282,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 9.843,
+   "T1": 1.6,
+   "W1": 5.512,
+   "W2": 5.012,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.150_0.090": {
+  "Z": 78.2079285954,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 3.543,
+   "T1": 1.6,
+   "W1": 5.906,
+   "W2": 5.406,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.150_0.100": {
+  "Z": 80.3395681931,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 3.937,
+   "T1": 1.6,
+   "W1": 5.906,
+   "W2": 5.406,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.150_0.110": {
+  "Z": 82.2218147292,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 4.331,
+   "T1": 1.6,
+   "W1": 5.906,
+   "W2": 5.406,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.150_0.125": {
+  "Z": 84.6101198187,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 4.921,
+   "T1": 1.6,
+   "W1": 5.906,
+   "W2": 5.406,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.150_0.150": {
+  "Z": 87.7797015292,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 5.906,
+   "T1": 1.6,
+   "W1": 5.906,
+   "W2": 5.406,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.150_0.175": {
+  "Z": 90.2046326226,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 6.89,
+   "T1": 1.6,
+   "W1": 5.906,
+   "W2": 5.406,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.150_0.200": {
+  "Z": 92.0774159522,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 7.874,
+   "T1": 1.6,
+   "W1": 5.906,
+   "W2": 5.406,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.150_0.250": {
+  "Z": 94.7652867022,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 9.843,
+   "T1": 1.6,
+   "W1": 5.906,
+   "W2": 5.406,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.160_0.090": {
+  "Z": 76.235969112,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 3.543,
+   "T1": 1.6,
+   "W1": 6.299,
+   "W2": 5.799,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.160_0.100": {
+  "Z": 78.2662631321,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 3.937,
+   "T1": 1.6,
+   "W1": 6.299,
+   "W2": 5.799,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.160_0.110": {
+  "Z": 80.0478904749,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 4.331,
+   "T1": 1.6,
+   "W1": 6.299,
+   "W2": 5.799,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.160_0.125": {
+  "Z": 82.3311089015,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 4.921,
+   "T1": 1.6,
+   "W1": 6.299,
+   "W2": 5.799,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.160_0.150": {
+  "Z": 85.3406509206,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 5.906,
+   "T1": 1.6,
+   "W1": 6.299,
+   "W2": 5.799,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.160_0.175": {
+  "Z": 87.6436126741,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 6.89,
+   "T1": 1.6,
+   "W1": 6.299,
+   "W2": 5.799,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.160_0.200": {
+  "Z": 89.431757542,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 7.874,
+   "T1": 1.6,
+   "W1": 6.299,
+   "W2": 5.799,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "D_out_0.160_0.250": {
+  "Z": 91.9817187273,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "S1": 9.843,
+   "T1": 1.6,
+   "W1": 6.299,
+   "W2": 5.799,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B"
+ },
+ "SE_in_0.080": {
+  "Z": 60.8363206353,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "T1": 0.6,
+   "W1": 3.15,
+   "W2": 2.65,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "OffsetStripline1B1A"
+ },
+ "SE_in_0.090": {
+  "Z": 58.127241744,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "T1": 0.6,
+   "W1": 3.543,
+   "W2": 3.043,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "OffsetStripline1B1A"
+ },
+ "SE_in_0.100": {
+  "Z": 55.6956537159,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "T1": 0.6,
+   "W1": 3.937,
+   "W2": 3.437,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "OffsetStripline1B1A"
+ },
+ "SE_in_0.110": {
+  "Z": 53.4957729159,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "T1": 0.6,
+   "W1": 4.331,
+   "W2": 3.831,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "OffsetStripline1B1A"
+ },
+ "SE_in_0.120": {
+  "Z": 51.4909546317,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "T1": 0.6,
+   "W1": 4.724,
+   "W2": 4.224,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "OffsetStripline1B1A"
+ },
+ "SE_in_0.130": {
+  "Z": 49.6499485876,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "T1": 0.6,
+   "W1": 5.118,
+   "W2": 4.618,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "OffsetStripline1B1A"
+ },
+ "SE_in_0.140": {
+  "Z": 47.954004181,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "T1": 0.6,
+   "W1": 5.512,
+   "W2": 5.012,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "OffsetStripline1B1A"
+ },
+ "SE_in_0.150": {
+  "Z": 46.3853403488,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "T1": 0.6,
+   "W1": 5.906,
+   "W2": 5.406,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "OffsetStripline1B1A"
+ },
+ "SE_in_0.160": {
+  "Z": 44.929046511,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "T1": 0.6,
+   "W1": 6.299,
+   "W2": 5.799,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "OffsetStripline1B1A"
+ },
+ "SE_in_0.170": {
+  "Z": 43.5743386344,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "T1": 0.6,
+   "W1": 6.693,
+   "W2": 6.193,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "OffsetStripline1B1A"
+ },
+ "SE_in_0.180": {
+  "Z": 42.2983398102,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "T1": 0.6,
+   "W1": 7.087,
+   "W2": 6.587,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "OffsetStripline1B1A"
+ },
+ "SE_in_0.190": {
+  "Z": 41.1101313983,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "T1": 0.6,
+   "W1": 7.48,
+   "W2": 6.98,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "OffsetStripline1B1A"
+ },
+ "SE_in_0.200": {
+  "Z": 39.9893448232,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "T1": 0.6,
+   "W1": 7.874,
+   "W2": 7.374,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "OffsetStripline1B1A"
+ },
+ "SE_in_0.210": {
+  "Z": 38.9329513182,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "T1": 0.6,
+   "W1": 8.268,
+   "W2": 7.768,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "OffsetStripline1B1A"
+ },
+ "SE_in_0.220": {
+  "Z": 37.9358445901,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "T1": 0.6,
+   "W1": 8.661,
+   "W2": 8.161,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "OffsetStripline1B1A"
+ },
+ "SE_in_0.230": {
+  "Z": 36.9919045203,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "T1": 0.6,
+   "W1": 9.055,
+   "W2": 8.555,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "OffsetStripline1B1A"
+ },
+ "SE_in_0.240": {
+  "Z": 36.0967825174,
+  "arg": {
+   "Er1": 4.36,
+   "Er2": 4.4,
+   "H1": 3.937,
+   "H2": 29.685,
+   "T1": 0.6,
+   "W1": 9.449,
+   "W2": 8.949,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "OffsetStripline1B1A"
+ },
+ "SE_out_0.080": {
+  "Z": 65.7377252746,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "T1": 1.6,
+   "W1": 3.15,
+   "W2": 2.65,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "CoatedMicrostrip1B"
+ },
+ "SE_out_0.090": {
+  "Z": 63.0467632627,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "T1": 1.6,
+   "W1": 3.543,
+   "W2": 3.043,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "CoatedMicrostrip1B"
+ },
+ "SE_out_0.100": {
+  "Z": 60.6630908964,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "T1": 1.6,
+   "W1": 3.937,
+   "W2": 3.437,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "CoatedMicrostrip1B"
+ },
+ "SE_out_0.110": {
+  "Z": 58.4111510351,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "T1": 1.6,
+   "W1": 4.331,
+   "W2": 3.831,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "CoatedMicrostrip1B"
+ },
+ "SE_out_0.120": {
+  "Z": 56.3512805989,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "T1": 1.6,
+   "W1": 4.724,
+   "W2": 4.224,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "CoatedMicrostrip1B"
+ },
+ "SE_out_0.130": {
+  "Z": 54.4652611334,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "T1": 1.6,
+   "W1": 5.118,
+   "W2": 4.618,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "CoatedMicrostrip1B"
+ },
+ "SE_out_0.140": {
+  "Z": 52.7101746129,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "T1": 1.6,
+   "W1": 5.512,
+   "W2": 5.012,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "CoatedMicrostrip1B"
+ },
+ "SE_out_0.150": {
+  "Z": 51.0720686931,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "T1": 1.6,
+   "W1": 5.906,
+   "W2": 5.406,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "CoatedMicrostrip1B"
+ },
+ "SE_out_0.160": {
+  "Z": 49.5223293748,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "T1": 1.6,
+   "W1": 6.299,
+   "W2": 5.799,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "CoatedMicrostrip1B"
+ },
+ "SE_out_0.170": {
+  "Z": 48.0955643133,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "T1": 1.6,
+   "W1": 6.693,
+   "W2": 6.193,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "CoatedMicrostrip1B"
+ },
+ "SE_out_0.180": {
+  "Z": 46.721024343,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "T1": 1.6,
+   "W1": 7.087,
+   "W2": 6.587,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "CoatedMicrostrip1B"
+ },
+ "SE_out_0.190": {
+  "Z": 45.4579233769,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "T1": 1.6,
+   "W1": 7.48,
+   "W2": 6.98,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "CoatedMicrostrip1B"
+ },
+ "SE_out_0.200": {
+  "Z": 44.2823362762,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "T1": 1.6,
+   "W1": 7.874,
+   "W2": 7.374,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "CoatedMicrostrip1B"
+ },
+ "SE_out_0.210": {
+  "Z": 43.127441329,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "T1": 1.6,
+   "W1": 8.268,
+   "W2": 7.768,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "CoatedMicrostrip1B"
+ },
+ "SE_out_0.220": {
+  "Z": 42.0597723671,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "T1": 1.6,
+   "W1": 8.661,
+   "W2": 8.161,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "CoatedMicrostrip1B"
+ },
+ "SE_out_0.230": {
+  "Z": 41.0388283132,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "T1": 1.6,
+   "W1": 9.055,
+   "W2": 8.555,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "CoatedMicrostrip1B"
+ },
+ "SE_out_0.240": {
+  "Z": 40.054192746,
+  "arg": {
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "Er1": 4.1,
+   "H1": 3.913,
+   "T1": 1.6,
+   "W1": 9.449,
+   "W2": 8.949,
+   "W2LinkW1Incr": 0.5,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false
+  },
+  "model": "CoatedMicrostrip1B"
+ }
+}

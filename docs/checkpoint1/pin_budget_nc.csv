@@ -1,0 +1,15 @@
+conn,pins,radxa_net,reason,source
+A,78,GPIO_VREF,"Module already ties it to VCC_3V3_S3 (R95031 0R), which sets VCCIO6 = 3.3 V. Radxa IO board leaves it NC.","CM5 p4, p17; IO p17"
+B,106,5V_HDMI,Only feeds the on-module HDMI DDC level shifter (diode-OR with VCC_SYSIN). No HDMI on this board.,PX note; CM5 p4
+B,"157,159,163,165,169,171","MIPI_DPHY0_TX (DSI0, 2-lane)",Unused; panel uses 4-lane DSI1.,PX U13-B
+B,"145,147,151,153,170,172,176,178,182,184,188,190,199,200",HDMI0 TX/SBD/CEC/HPD/DDC,No HDMI.,PX U13-B
+C,"3,5,9,11,15,17,21,23,27,29",TYPEC0 SBU/SSTX/SSRX (USB3 + DP alt-mode lanes),"No DP alt-mode (your choice), USB-C is USB 2.0 only.",PX J1
+C,"39,41",PCIE20_2_REFCLKP/N,"Combo PHY2 is used as USB 3.0 for the modem, so its PCIe refclk is unused.",PX J1
+A,"3,4,5,6,9,10,11,12,15,17,19","PHY1_MDI0-3, PHY1 LEDs",No Ethernet.,PX U13-A
+A,"28,30,31,100",SPI0_M1,Spare (3.3 V).,PX U13-A
+C,24,WIFI_PWR_EN (GPIO1_D3),"Spare. VCCIO1 is an S0 rail, so it is unsuitable for WL_REG_ON if Wi-Fi must survive suspend.",CM5 p13
+C,"12,20,36,46,79,83","GPIO1_B7, GPIO1_C1, HP_DET_L, GPIO1_D1, GPIO1_C4_S, GPIO1_D2",Spare 1.8 V GPIOs.,PX J1
+A,37,TP_INT_L (GPIO1_B5),Spare 1.8 V S3 GPIO.,PX
+A/C,"50,54 / 30 / 96","I2S0_MCLK, I2S0_SDI0 / SARADC_VIN3 / SARADC_VIN4","Unused (no codec, no headphone jack).",PX
+C,90,RTC_32K_SOC,"Module-side 32 kHz input/output whose direction is UNVERIFIED (pinout says ""already in use""). Left NC.",CM5 p4; PX J1 note
+B,101,TYPEC0_USB20_OTG_ID,NC; role is set in software.,PX U13-B

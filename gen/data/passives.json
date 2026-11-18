@@ -1,0 +1,666 @@
+{
+ "C_0201_100nF_16V": {
+  "desc": "100nF 16V X5R \u00b110% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C307380",
+  "lib": "EXT",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL03A104KO3NNNC",
+  "stock": 2097663
+ },
+ "C_0201_100pF_50V": {
+  "desc": "100pF 50V NP0 \u00b15% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C272870",
+  "lib": "EXT",
+  "mfr": "YAGEO",
+  "mpn": "CC0201JRNPO9BN101",
+  "stock": 919656
+ },
+ "C_0402_1.8nF_50V": {
+  "desc": "1.8nF 50V X7R \u00b110% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C107024",
+  "lib": "EXT",
+  "mfr": "YAGEO",
+  "mpn": "CC0402KRX7R9BB182",
+  "stock": 312370
+ },
+ "C_0402_100nF_10V": {
+  "desc": "100nF 16V X7R \u00b110% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C1525",
+  "lib": "BASIC",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL05B104KO5NNNC",
+  "stock": 24723819
+ },
+ "C_0402_100nF_16V": {
+  "desc": "100nF 16V X7R \u00b110% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C1525",
+  "lib": "BASIC",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL05B104KO5NNNC",
+  "stock": 24723819
+ },
+ "C_0402_100nF_25V": {
+  "desc": "100nF 50V X7R \u00b110% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C131394",
+  "lib": "EXT",
+  "mfr": "YAGEO",
+  "mpn": "CC0402KRX7R9BB104",
+  "stock": 7648720
+ },
+ "C_0402_100nF_6.3V": {
+  "desc": "100nF 16V X7R \u00b110% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C1525",
+  "lib": "BASIC",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL05B104KO5NNNC",
+  "stock": 24723819
+ },
+ "C_0402_100pF_50V": {
+  "desc": "100pF 50V C0G \u00b15% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C1546",
+  "lib": "BASIC",
+  "mfr": "FH (Guangdong Fenghua Advanced Tech)",
+  "mpn": "0402CG101J500NT",
+  "stock": 3793522
+ },
+ "C_0402_10nF_50V": {
+  "desc": "10nF 50V X7R \u00b110% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C15195",
+  "lib": "BASIC",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL05B103KB5NNNC",
+  "stock": 6189394
+ },
+ "C_0402_10pF_50V": {
+  "desc": "10pF 50V C0G \u00b15% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C32949",
+  "lib": "BASIC",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL05C100JB5NNNC",
+  "stock": 1944848
+ },
+ "C_0402_15pF_50V": {
+  "desc": "15pF 50V C0G \u00b15% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C1548",
+  "lib": "BASIC",
+  "mfr": "FH (Guangdong Fenghua Advanced Tech)",
+  "mpn": "0402CG150J500NT",
+  "stock": 1195389
+ },
+ "C_0402_18pF_50V": {
+  "desc": "18pF 50V C0G \u00b15% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C1549",
+  "lib": "BASIC",
+  "mfr": "FH (Guangdong Fenghua Advanced Tech)",
+  "mpn": "0402CG180J500NT",
+  "stock": 788223
+ },
+ "C_0402_1nF_50V": {
+  "desc": "1nF 50V C0G \u00b15% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C76947",
+  "lib": "EXT",
+  "mfr": "Murata Electronics",
+  "mpn": "GRM1555C1H102JA01D",
+  "stock": 952481
+ },
+ "C_0402_1uF_10V": {
+  "desc": "1uF 25V X5R \u00b110% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C52923",
+  "lib": "BASIC",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL05A105KA5NQNC",
+  "stock": 9140388
+ },
+ "C_0402_1uF_16V": {
+  "desc": "1uF 25V X5R \u00b110% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C52923",
+  "lib": "BASIC",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL05A105KA5NQNC",
+  "stock": 9140388
+ },
+ "C_0402_1uF_6.3V": {
+  "desc": "1uF 25V X5R \u00b110% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C52923",
+  "lib": "BASIC",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL05A105KA5NQNC",
+  "stock": 9140348
+ },
+ "C_0402_2.2uF_10V": {
+  "desc": "10V 2.2uF X5R \u00b110% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C20539421",
+  "lib": "EXT",
+  "mfr": "CCTC",
+  "mpn": "TCC0402X5R225K100AT",
+  "stock": 1210578
+ },
+ "C_0402_27pF_50V": {
+  "desc": "27pF 50V C0G \u00b15% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C1557",
+  "lib": "PREF-EXT",
+  "mfr": "FH (Guangdong Fenghua Advanced Tech)",
+  "mpn": "0402CG270J500NT",
+  "stock": 251846
+ },
+ "C_0402_330pF_50V": {
+  "desc": "330pF 50V C0G \u00b15% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C13533",
+  "lib": "PREF-EXT",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL05C331JB5NNNC",
+  "stock": 276021
+ },
+ "C_0402_33nF_25V": {
+  "desc": "33nF 50V X7R \u00b110% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C106862",
+  "lib": "EXT",
+  "mfr": "YAGEO",
+  "mpn": "CC0402KRX7R9BB333",
+  "stock": 513315
+ },
+ "C_0402_33pF_50V": {
+  "desc": "33pF 50V C0G \u00b15% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C1562",
+  "lib": "BASIC",
+  "mfr": "FH (Guangdong Fenghua Advanced Tech)",
+  "mpn": "0402CG330J500NT",
+  "stock": 1280157
+ },
+ "C_0402_4.7uF_6.3V": {
+  "desc": "10V 4.7uF X5R \u00b120% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C23733",
+  "lib": "BASIC",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL05A475MP5NRNC",
+  "stock": 2107886
+ },
+ "C_0402_470nF_10V": {
+  "desc": "10V 470nF X5R \u00b110% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C47339",
+  "lib": "PREF-EXT",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL05A474KP5NNNC",
+  "stock": 823686
+ },
+ "C_0402_470nF_25V": {
+  "desc": "25V 470nF X5R \u00b110% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C2934765",
+  "lib": "EXT",
+  "mfr": "FH (Guangdong Fenghua Advanced Tech)",
+  "mpn": "0402X474K250NT",
+  "stock": 218528
+ },
+ "C_0402_47nF_16V": {
+  "desc": "47nF 50V X7R \u00b110% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C272875",
+  "lib": "EXT",
+  "mfr": "YAGEO",
+  "mpn": "CC0402KRX7R9BB473",
+  "stock": 976848
+ },
+ "C_0402_47nF_25V": {
+  "desc": "47nF 50V X7R \u00b110% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C272875",
+  "lib": "EXT",
+  "mfr": "YAGEO",
+  "mpn": "CC0402KRX7R9BB473",
+  "stock": 976848
+ },
+ "C_0402_5.6nF_16V": {
+  "desc": "5.6nF 50V X7R \u00b110% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C281760",
+  "lib": "EXT",
+  "mfr": "YAGEO",
+  "mpn": "CC0402KRX7R9BB562",
+  "stock": 109295
+ },
+ "C_0402_6.8nF_16V": {
+  "desc": "50V 6.8nF X7R \u00b110% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C1542",
+  "lib": "PREF-EXT",
+  "mfr": "FH (Guangdong Fenghua Advanced Tech)",
+  "mpn": "0402B682K500NT",
+  "stock": 153746
+ },
+ "C_0402_680pF_50V": {
+  "desc": "50V 680pF C0G \u00b15% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C307451",
+  "lib": "EXT",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL05C681JB5NNNC",
+  "stock": 68625
+ },
+ "C_0603_10uF_10V": {
+  "desc": "10V 10uF X5R \u00b110% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C19702",
+  "lib": "BASIC",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL10A106KP8NNNC",
+  "stock": 10303888
+ },
+ "C_0603_10uF_16V": {
+  "desc": "10uF 25V X5R \u00b120% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C96446",
+  "lib": "BASIC",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL10A106MA8NRNC",
+  "stock": 4658900
+ },
+ "C_0603_10uF_6.3V": {
+  "desc": "10V 10uF X5R \u00b110% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C19702",
+  "lib": "BASIC",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL10A106KP8NNNC",
+  "stock": 10303560
+ },
+ "C_0603_2.2uF_16V": {
+  "desc": "16V 2.2uF X5R \u00b110% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C23630",
+  "lib": "BASIC",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL10A225KO8NNNC",
+  "stock": 3408131
+ },
+ "C_0603_22uF_10V": {
+  "desc": "10V 22uF X5R \u00b120% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C86295",
+  "lib": "EXT",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL10A226MP8NUNE",
+  "stock": 660685
+ },
+ "C_0603_4.7uF_10V": {
+  "desc": "16V 4.7uF X5R \u00b110% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C19666",
+  "lib": "BASIC",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL10A475KO8NNNC",
+  "stock": 3545749
+ },
+ "C_0805_10uF_16V": {
+  "desc": "10uF 25V X5R \u00b110% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C15850",
+  "lib": "BASIC",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL21A106KAYNNNE",
+  "stock": 6531568
+ },
+ "C_0805_10uF_25V": {
+  "desc": "10uF 25V X5R \u00b110% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C15850",
+  "lib": "BASIC",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL21A106KAYNNNE",
+  "stock": 6531568
+ },
+ "C_0805_1uF_50V": {
+  "desc": "1uF 50V X7R \u00b110% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C28323",
+  "lib": "BASIC",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL21B105KBFNNNE",
+  "stock": 2336545
+ },
+ "C_0805_22uF_10V": {
+  "desc": "22uF 25V X5R \u00b120% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C45783",
+  "lib": "BASIC",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL21A226MAQNNNE",
+  "stock": 3774563
+ },
+ "C_0805_22uF_16V": {
+  "desc": "22uF 25V X5R \u00b120% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C45783",
+  "lib": "BASIC",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL21A226MAQNNNE",
+  "stock": 3774563
+ },
+ "C_0805_22uF_25V": {
+  "desc": "22uF 25V X5R \u00b120% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C45783",
+  "lib": "BASIC",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL21A226MAQNNNE",
+  "stock": 3774563
+ },
+ "C_0805_4.7uF_25V": {
+  "desc": "25V 4.7uF X5R \u00b110% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+  "lcsc": "C1779",
+  "lib": "BASIC",
+  "mfr": "Samsung Electro-Mechanics",
+  "mpn": "CL21A475KAQNNNE",
+  "stock": 2367675
+ },
+ "LED_0603_red": {
+  "desc": "0603 red LED, Vf 1.8-2.4 V",
+  "lcsc": "C2286",
+  "lib": "BASIC",
+  "mfr": "Hubei KENTO Elec",
+  "mpn": "KT-0603R",
+  "stock": 7627117
+ },
+ "R_0201_0": {
+  "desc": "-55\u2103~+155\u2103 0\u03a9 25V 50mW Thick Film Resistor \u00b11% 0201 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C473473",
+  "lib": "EXT",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0201WMF0000TEE",
+  "stock": 4647282
+ },
+ "R_0402_0": {
+  "desc": "-55\u2103~+155\u2103 0\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1800ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C17168",
+  "lib": "BASIC",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0402WGF0000TCE",
+  "stock": 8667047
+ },
+ "R_0402_10": {
+  "desc": "-55\u2103~+155\u2103 10\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1200ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C25077",
+  "lib": "BASIC",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0402WGF100JTCE",
+  "stock": 3895814
+ },
+ "R_0402_100": {
+  "desc": "-55\u2103~+155\u2103 100\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C25076",
+  "lib": "BASIC",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0402WGF1000TCE",
+  "stock": 8061747
+ },
+ "R_0402_100k": {
+  "desc": "-55\u2103~+155\u2103 100k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C25741",
+  "lib": "BASIC",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0402WGF1003TCE",
+  "stock": 9287914
+ },
+ "R_0402_10k": {
+  "desc": "-55\u2103~+155\u2103 10k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C25744",
+  "lib": "BASIC",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0402WGF1002TCE",
+  "stock": 20343974
+ },
+ "R_0402_12k": {
+  "desc": "-55\u2103~+155\u2103 12k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C25752",
+  "lib": "BASIC",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0402WGF1202TCE",
+  "stock": 953651
+ },
+ "R_0402_137k": {
+  "desc": "-55\u2103~+155\u2103 137k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C5153963",
+  "lib": "EXT",
+  "mfr": "FOJAN",
+  "mpn": "FRC0402F1373TS",
+  "stock": 194113
+ },
+ "R_0402_140k": {
+  "desc": "-55\u2103~+155\u2103 140k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C2998127",
+  "lib": "EXT",
+  "mfr": "FOJAN",
+  "mpn": "FRC0402F1403TS",
+  "stock": 213451
+ },
+ "R_0402_154k": {
+  "desc": "-55\u2103~+155\u2103 100mW 154k\u03a9 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C317007",
+  "lib": "EXT",
+  "mfr": "KOA Speer Elec",
+  "mpn": "RK73H1ETTP1543F",
+  "stock": 19599
+ },
+ "R_0402_158k": {
+  "desc": "0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C54102317",
+  "lib": "EXT",
+  "mfr": "FOJAN",
+  "mpn": "FRC0402F1583TS",
+  "stock": 101098
+ },
+ "R_0402_15k": {
+  "desc": "-55\u2103~+155\u2103 15k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C25756",
+  "lib": "BASIC",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0402WGF1502TCE",
+  "stock": 1992890
+ },
+ "R_0402_169k": {
+  "desc": "-55\u2103~+155\u2103 169k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C2974012",
+  "lib": "EXT",
+  "mfr": "FOJAN",
+  "mpn": "FRC0402F1693TS",
+  "stock": 260223
+ },
+ "R_0402_178k": {
+  "desc": "-55\u2103~+155\u2103 178k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C3013156",
+  "lib": "EXT",
+  "mfr": "FOJAN",
+  "mpn": "FRC0402F1783TS",
+  "stock": 37562
+ },
+ "R_0402_1M": {
+  "desc": "-55\u2103~+155\u2103 1M\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C26083",
+  "lib": "BASIC",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0402WGF1004TCE",
+  "stock": 1945480
+ },
+ "R_0402_1k": {
+  "desc": "-55\u2103~+155\u2103 1k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C11702",
+  "lib": "BASIC",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0402WGF1001TCE",
+  "stock": 13792656
+ },
+ "R_0402_2.2k": {
+  "desc": "-55\u2103~+155\u2103 2.2k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C25879",
+  "lib": "BASIC",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0402WGF2201TCE",
+  "stock": 2136127
+ },
+ "R_0402_210k": {
+  "desc": "-55\u2103~+155\u2103 210k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C2998176",
+  "lib": "EXT",
+  "mfr": "FOJAN",
+  "mpn": "FRC0402F2103TS",
+  "stock": 510406
+ },
+ "R_0402_22": {
+  "desc": "-55\u2103~+155\u2103 22\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C25092",
+  "lib": "BASIC",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0402WGF220JTCE",
+  "stock": 3899404
+ },
+ "R_0402_220k": {
+  "desc": "-55\u2103~+155\u2103 220k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C25767",
+  "lib": "PREF-EXT",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0402WGF2203TCE",
+  "stock": 111442
+ },
+ "R_0402_27": {
+  "desc": "-55\u2103~+155\u2103 27\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C2909343",
+  "lib": "EXT",
+  "mfr": "FOJAN",
+  "mpn": "FRC0402F27R0TS",
+  "stock": 357427
+ },
+ "R_0402_270k": {
+  "desc": "-55\u2103~+155\u2103 270k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C2909341",
+  "lib": "EXT",
+  "mfr": "FOJAN",
+  "mpn": "FRC0402F2703TS",
+  "stock": 505784
+ },
+ "R_0402_2k": {
+  "desc": "-55\u2103~+155\u2103 2k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C4109",
+  "lib": "BASIC",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0402WGF2001TCE",
+  "stock": 7697284
+ },
+ "R_0402_300k": {
+  "desc": "-55\u2103~+155\u2103 300k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C25774",
+  "lib": "PREF-EXT",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0402WGF3003TCE",
+  "stock": 526788
+ },
+ "R_0402_30k": {
+  "desc": "-55\u2103~+155\u2103 30k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C2909347",
+  "lib": "EXT",
+  "mfr": "FOJAN",
+  "mpn": "FRC0402F3002TS",
+  "stock": 1932676
+ },
+ "R_0402_324k": {
+  "desc": "-55\u2103~+155\u2103 324k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C113480",
+  "lib": "EXT",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0402WGF3243TCE",
+  "stock": 42114
+ },
+ "R_0402_330k": {
+  "desc": "-55\u2103~+155\u2103 330k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C25778",
+  "lib": "PREF-EXT",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0402WGF3303TCE",
+  "stock": 127327
+ },
+ "R_0402_383k": {
+  "desc": "-55\u2103~+155\u2103 383k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C5126206",
+  "lib": "EXT",
+  "mfr": "FOJAN",
+  "mpn": "FRC0402F3833TS",
+  "stock": 66235
+ },
+ "R_0402_39k": {
+  "desc": "-55\u2103~+155\u2103 39k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C25783",
+  "lib": "PREF-EXT",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0402WGF3902TCE",
+  "stock": 236202
+ },
+ "R_0402_4.99": {
+  "desc": "-55\u2103~+155\u2103 4.99\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1200ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C5126051",
+  "lib": "EXT",
+  "mfr": "FOJAN",
+  "mpn": "FRC0402F4R99TS",
+  "stock": 490049
+ },
+ "R_0402_40.2k": {
+  "desc": "-55\u2103~+155\u2103 40.2k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C137983",
+  "lib": "EXT",
+  "mfr": "YAGEO",
+  "mpn": "RC0402FR-0740K2L",
+  "stock": 1423892
+ },
+ "R_0402_430k": {
+  "desc": "-55\u2103~+155\u2103 430k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C2909357",
+  "lib": "EXT",
+  "mfr": "FOJAN",
+  "mpn": "FRC0402F4303TS",
+  "stock": 304467
+ },
+ "R_0402_499k": {
+  "desc": "-55\u2103~+155\u2103 499k\u03a9 50V 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C2998054",
+  "lib": "EXT",
+  "mfr": "FOJAN",
+  "mpn": "FRC0402F4993TS",
+  "stock": 809601
+ },
+ "R_0402_56k": {
+  "desc": "-55\u2103~+155\u2103 50V 56k\u03a9 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C25796",
+  "lib": "PREF-EXT",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0402WGF5602TCE",
+  "stock": 169721
+ },
+ "R_0402_6.8k": {
+  "desc": "-55\u2103~+155\u2103 50V 6.8k\u03a9 62.5mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C25917",
+  "lib": "PREF-EXT",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0402WGF6801TCE",
+  "stock": 109187
+ },
+ "R_0402_7.5k": {
+  "desc": "-55\u2103~+155\u2103 50V 62.5mW 7.5k\u03a9 Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C25918",
+  "lib": "PREF-EXT",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0402WGF7501TCE",
+  "stock": 1018498
+ },
+ "R_0402_8.2k": {
+  "desc": "-55\u2103~+155\u2103 50V 62.5mW 8.2k\u03a9 Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C25924",
+  "lib": "PREF-EXT",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0402WGF8201TCE",
+  "stock": 90691
+ },
+ "R_0603_0": {
+  "desc": "-55\u2103~+155\u2103 0\u03a9 100mW 75V Thick Film Resistor \u00b11% 0603 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C21189",
+  "lib": "BASIC",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0603WAF0000T5E",
+  "stock": 23700908
+ },
+ "R_0603_1": {
+  "desc": "-55\u2103~+155\u2103 100mW 1\u03a9 75V Thick Film Resistor \u00b11% \u00b1400ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C22936",
+  "lib": "BASIC",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0603WAF100KT5E",
+  "stock": 147240
+ },
+ "R_0603_5.1": {
+  "desc": "-55\u2103~+155\u2103 100mW 5.1\u03a9 75V Thick Film Resistor \u00b11% \u00b1200ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+  "lcsc": "C25197",
+  "lib": "BASIC",
+  "mfr": "UNI-ROYAL(Uniroyal Elec)",
+  "mpn": "0603WAF510KT5E",
+  "stock": 151986
+ }
+}

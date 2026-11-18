@@ -1,0 +1,170 @@
+{
+ "AMPAK_AP6275P": {
+  "below": 0.0,
+  "height": 1.55,
+  "note": "",
+  "source": "AMPAK AP6275P datasheet sec. 5.1 / 6.2",
+  "status": "verified"
+ },
+ "CM5_Standoff_SMT_M2.5_L1.5": {
+  "below": 0.33,
+  "height": 1.5,
+  "note": "",
+  "source": "YIYUAN SMTSO family table (C5301777 datasheet), M2.5 L 1.5",
+  "status": "verified"
+ },
+ "FPC_0.5mm_12P_BXCONN_FC-05A12P11H20": {
+  "below": 0.0,
+  "height": 2.0,
+  "note": "3.6 mm with the actuator open",
+  "source": "BXCONN FC-05AxxP11H20 drawing (BXCONN)",
+  "status": "verified"
+ },
+ "FPC_0.5mm_30P_HDGC_0520-HX-30PWB": {
+  "below": 0.0,
+  "height": 2.0,
+  "note": "3.27 mm with the actuator open",
+  "source": "HDGC 0520-HX-nPWB drawing (2016-03-12)",
+  "status": "verified"
+ },
+ "FPC_0.5mm_8P_XUNPU_FPC-05F-8PH15": {
+  "below": 0.0,
+  "height": 1.5,
+  "note": "",
+  "source": "XUNPU FPC-05F-nPH15 drawing",
+  "status": "verified"
+ },
+ "GCT_SIM8066-6-1-14-01-A": {
+  "below": 0.0,
+  "height": 1.45,
+  "note": "",
+  "source": "GCT SIM8066 drawing rev. 19 March 2021",
+  "status": "verified"
+ },
+ "Hirose_BM20B_0.8_-40DS-0.4V": {
+  "below": 0.0,
+  "height": 0.8,
+  "note": "",
+  "source": "Hirose BM20 catalogue (Aug 2019) + BBQ20KBD",
+  "status": "verified"
+ },
+ "Hirose_FH35C-31S-0.3SHW": {
+  "below": 0.0,
+  "height": 1.0,
+  "note": "0.9 +-0.1 mm; 1.8 with the actuator open",
+  "source": "Hirose FH35C catalogue (2019) + Radxa CM5 IO board PADS decal",
+  "status": "verified"
+ },
+ "L_CMC_Murata_DLW21SN": {
+  "below": 0.0,
+  "height": 1.2,
+  "note": "",
+  "source": "Murata DLW21SN reference specification JEFL243C-0003V-01",
+  "status": "verified"
+ },
+ "L_Sunlord_WPN252012H": {
+  "below": 0.0,
+  "height": 1.2,
+  "note": "",
+  "source": "Sunlord WPN series catalogue, shape and land table",
+  "status": "verified"
+ },
+ "L_Sunlord_WPN4020": {
+  "below": 0.0,
+  "height": 2.0,
+  "note": "",
+  "source": "Sunlord WPN series catalogue, shape and land table",
+  "status": "verified"
+ },
+ "M.2_Key-B_HOAUC_HYCW11B": {
+  "below": 0.0,
+  "height": 3.55,
+  "note": "socket 3.2 mm; module top 1.25 + 2.3 = 3.55 mm from the board",
+  "source": "HOAUC HYCW11B-05NGFF-320B drawing (2014-02-23) + Quectel EM060K HD V1.1 fig. 35",
+  "status": "verified"
+ },
+ "M.2_SMT_Standoff_M2": {
+  "below": 0.33,
+  "height": 1.0,
+  "note": "module notch rests on it; a 1.0 mm nut leaves the module end 0.25 mm lower than the socket (1.25)",
+  "source": "Sinhoo SMTSO2010CTJ drawing + YIYUAN SMTSO table",
+  "status": "verified"
+ },
+ "Maxim_TDFN-10-1EP_2x2.5mm_P0.4mm_EP1.4x1.3mm": {
+  "below": 0.0,
+  "height": 0.8,
+  "note": "",
+  "source": "Maxim 90-100007 rev B land pattern + 21-100013 rev C outline",
+  "status": "verified"
+ },
+ "Molex_Micro-Lock_Plus_505578-0971_1x09_P2.00mm_Horizontal": {
+  "below": 0.0,
+  "height": 5.9,
+  "note": "",
+  "source": "Molex 5055780001 PSD 000 rev C (LCSC C17389413 datasheet)",
+  "status": "verified"
+ },
+ "OPi_CM5_DF40_JP1": {
+  "below": 0.0,
+  "height": 4.6,
+  "note": "carries the module courtyard; module height not published by Orange Pi",
+  "source": "Orange Pi CM5 V1.1 / V1.5 module DXF (outline 40 x 55, plug positions); heights estimated: 1.5 mm stack + 1.6 mm PCB + 1.5 mm parts",
+  "status": "UNVERIFIED"
+ },
+ "OPi_CM5_DF40_JP2": {
+  "below": 0.0,
+  "height": 1.5,
+  "note": "no own courtyard: inside the module courtyard of connector JP1",
+  "source": "as connector JP1",
+  "status": "verified"
+ },
+ "OPi_CM5_DF40_JP3": {
+  "below": 0.0,
+  "height": 1.5,
+  "note": "no own courtyard: inside the module courtyard of connector JP1",
+  "source": "as connector JP1",
+  "status": "verified"
+ },
+ "SW_Alps_SKRTLAE010_JLC": {
+  "below": 0.0,
+  "height": 3.3,
+  "note": "outer pads -0.125 mm inward, MP pads -0.05 mm, for 0.2 mm NPTH-to-copper",
+  "source": "Alps SKRTLAE010 drawing + land (C110293)",
+  "status": "verified"
+ },
+ "TI_VSON-CLIP-8_3.3x3.3mm_CSD25404Q3": {
+  "below": 0.0,
+  "height": 1.0,
+  "note": "",
+  "source": "TI CSD25404Q3 SLPS570 sec. 7.2",
+  "status": "verified"
+ },
+ "TI_VSONP-8_3.3x3.3mm_CSD17577Q3A": {
+  "below": 0.0,
+  "height": 1.0,
+  "note": "",
+  "source": "TI CSD17577Q3A SLPS515A sec. 7.2",
+  "status": "verified"
+ },
+ "Texas_DSJ0014A_VSON-14-1EP_3x4mm_P0.5mm": {
+  "below": 0.0,
+  "height": 1.0,
+  "note": "",
+  "source": "TI TPS63020 datasheet DSJ0014A pages",
+  "status": "verified"
+ },
+ "Texas_RHL0020A_VQFN-20-1EP_3.5x4.5mm_P0.5mm": {
+  "below": 0.0,
+  "height": 1.0,
+  "note": "",
+  "source": "TI TPS61088 SLVSCM8 RHL0020A package/land pages",
+  "status": "verified"
+ },
+ "USB_A_HOAUC_HYCW236-USBA04-289B": {
+  "below": 2.89,
+  "height": 4.33,
+  "note": "4.33 above / 2.89 below the board top (1.69 below the bottom); flange front 1.52 mm and mouth front 3.02 mm past the board edge",
+  "source": "HOAUC HYCW236-USBA04-289B drawing (2014-02-23)",
+  "status": "verified"
+ }
+}

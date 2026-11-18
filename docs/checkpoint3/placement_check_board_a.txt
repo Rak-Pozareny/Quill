@@ -1,0 +1,75 @@
+== 1. decoupling capacitors farther than 4.0 mm from a pin on their rail
+   17.0 mm  C504  220uF 6.3V   VCC_LTE        nearest J501  (B)  [Modem supply decoupling (Quectel Fig. 8: 2 x 220 uF + 2 x (1]
+   11.5 mm  C503  220uF 6.3V   VCC_LTE        nearest J501  (B)  [Modem supply decoupling (Quectel Fig. 8: 2 x 220 uF + 2 x (1]
+    7.9 mm  C704  1uF 50V      BL_LEDA        nearest J701  (F)  [Backlight: TPS61169 LED boost, 12 LEDs 18.6 V / 40 mA (panel]
+    7.8 mm  C305  10uF 10V     VCC_1V8_S0     nearest J301  (B)  [Radxa CM5 board-to-board connectors (3 x Hirose DF40C-100DS-]
+    7.0 mm  C219  22uF 16V     VCC5V0         nearest U202  (F)  [5 V rail: TPS61089 boost VSYS -> 5.14 V (USB-A x2, keyboard,]
+    6.8 mm  C304  10uF 10V     VCC_3V3_S3     nearest J301  (B)  [Radxa CM5 board-to-board connectors (3 x Hirose DF40C-100DS-]
+    6.2 mm  C126  10uF 16V     VSYS           nearest Q104  (B)  [NVDC buck-boost charger (BQ25713) - power stage]
+    5.7 mm  C231  22uF 10V     VCC3V3_AUX     nearest U204  (B)  [AUX 3.3 V: TPS63020 buck-boost VSYS -> 3.31 V (AP6275P, USB ]
+    5.7 mm  C225  22uF 10V     VCC_LTE        nearest U203  (B)  [LTE modem supply: TPS63020 buck-boost VSYS -> 3.75 V]
+    5.7 mm  C122  10uF 16V     VSYS           nearest Q104  (B)  [NVDC buck-boost charger (BQ25713) - power stage]
+    5.0 mm  C115  100nF 25V    CHG_IN         nearest R108  (B)  [NVDC buck-boost charger (BQ25713) - power stage]
+    4.9 mm  C302  22uF 16V     CM5_VIN        nearest U201  (B)  [Radxa CM5 board-to-board connectors (3 x Hirose DF40C-100DS-]
+    4.9 mm  C218  22uF 16V     VCC5V0         nearest U202  (F)  [5 V rail: TPS61089 boost VSYS -> 5.14 V (USB-A x2, keyboard,]
+    4.8 mm  C133  2.2uF 16V    CHG_REGN       nearest U103  (B)  [NVDC charger (BQ25713) - controller]
+    4.6 mm  C414  22uF 10V     USBA1_VBUS     nearest U402  (F)  [USB-A x2 (bottom edge, mid-mount) with current-limited switc]
+    4.6 mm  C125  10uF 16V     VSYS           nearest Q104  (B)  [NVDC buck-boost charger (BQ25713) - power stage]
+    4.5 mm  C110  10uF 25V     CHG_IN         nearest R108  (B)  [NVDC buck-boost charger (BQ25713) - power stage]
+    4.2 mm  C308  100nF 10V    VSYS_SENSE     nearest J303  (F)  [Debug console (UART2_M0, 1.5 Mbaud, 3.3 V), status LED, VSYS]
+    4.1 mm  C132  33nF 25V     CHG_ACN        nearest U103  (B)  [NVDC charger (BQ25713) - controller]
+    4.1 mm  C121  10uF 16V     VSYS           nearest Q104  (B)  [NVDC buck-boost charger (BQ25713) - power stage]
+  20 capacitors above 4.0 mm
+
+== 2. switch nodes: inductor pad to the nearest switch pin
+  L101  pad 1 CHG_SW1           2.6 mm to Q101.1
+  L101  pad 2 CHG_SW2           2.6 mm to Q104.1
+  L201  pad 2 BST_CM5_SW        4.3 mm to U201.5
+  L202  pad 2 BST_5V_SW         3.0 mm to U202.11
+  L203  pad 1 BB_LTE_L1         3.3 mm to U203.8
+  L203  pad 2 BB_LTE_L2         3.3 mm to U203.7
+  L204  pad 1 BB_AUX_L1         3.3 mm to U204.8
+  L204  pad 2 BB_AUX_L2         3.3 mm to U204.7
+  L601  pad 1 WL_CSR_VLX        3.7 mm to U601.26
+  L602  pad 1 WL_ASR_VLX        3.6 mm to U601.28
+  L701  pad 2 BL_SW             1.6 mm to U702.1
+
+== 3. sensitive nets: spanning length over pad centres
+  BAT_SRP                 31.5 mm  R122.1F Q105.1B Q105.2B Q105.3B R109.1B
+  BB_AUX_FB                3.6 mm  R219.2B U204.3B R220.1B
+  BB_AUX_VINA              3.5 mm  R218.2B U204.1B C226.1B
+  BB_LTE_FB                2.3 mm  R215.1F R214.2F U203.3B
+  BB_LTE_VINA              6.6 mm  C220.1F R213.2B U203.1B U203.13B
+  BST_5V_BOOT              2.3 mm  U202.10F C214.1F
+  BST_5V_COMP              2.0 mm  U202.4F R210.1F
+  BST_5V_COMP_RC           0.9 mm  R210.2F C215.1F
+  BST_5V_FB                2.1 mm  U202.3F R212.1F R211.2F
+  BST_5V_FSW               4.7 mm  U202.1F R208.1F
+  BST_5V_ILIM              7.3 mm  U202.8F R209.1F
+  BST_5V_VCC               3.3 mm  U202.2F C213.1F
+  BST_CM5_BOOT             1.5 mm  U201.8B C204.1B
+  BST_CM5_COMP             3.4 mm  R204.1B U201.18B
+  BST_CM5_COMP_RC          1.4 mm  C206.1B R204.2B
+  BST_CM5_FB               2.9 mm  U201.17B R205.2B R206.1B
+  BST_CM5_FSW              5.9 mm  R202.1B U201.3B
+  BST_CM5_ILIM             5.5 mm  R203.1B U201.19B
+  BST_CM5_VCC              3.8 mm  U201.1B C203.1B
+  CHG_ACN                  8.1 mm  U103.2B R112.2B C132.1B
+  CHG_ACP                  7.4 mm  C131.1B U103.3B R111.2B
+  CHG_BTST1                2.7 mm  C118.1B U103.30B
+  CHG_BTST2                1.9 mm  C119.1B U103.25B
+  CHG_COMP1                5.8 mm  R120.1B U103.16B C137.1B
+  CHG_COMP1_RC             1.6 mm  R120.2B C138.1B
+  CHG_COMP2                5.6 mm  C139.1B U103.17B R121.1B
+  CHG_COMP2_RC             3.1 mm  C140.1B R121.2B
+  CHG_HIDRV1               8.6 mm  U103.31B Q101.4B
+  CHG_HIDRV2               3.8 mm  U103.24B Q104.4B
+  CHG_ILIM                 6.7 mm  R115.1B U103.6B R114.2B
+  CHG_LODRV1               8.2 mm  U103.29B Q102.4B
+  CHG_LODRV2              10.5 mm  Q103.4B U103.26B
+  CHG_REGN                 6.6 mm  R113.1F C133.1B U103.28B
+  CHG_SRN                  6.1 mm  C141.2B R123.2B U103.19B
+  CHG_SRP                  4.8 mm  R122.2F C141.1B U103.20B
+  KBD_ILIM                 4.3 mm  U1001.5B R1001.1B
+  USBA1_ILIM               5.3 mm  R409.1F U402.5F
+  USBA2_ILIM               0.5 mm  U403.5F R411.1B

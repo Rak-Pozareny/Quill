@@ -1,0 +1,47 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-23T23:39:26",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/c981a6b7-7089-58da-a31d-bcc189102ea3",
+            "violations": []
+        },
+        {
+            "path": "/RP2040, power, carrier FFC/",
+            "uuid_path": "/c981a6b7-7089-58da-a31d-bcc189102ea3/0a758acf-b9c2-5dd9-841f-a488df2504ca",
+            "violations": []
+        },
+        {
+            "path": "/Q20 keyboard connector, trackpad level shifters, backlight/",
+            "uuid_path": "/c981a6b7-7089-58da-a31d-bcc189102ea3/cc7669c0-e8d3-5252-bba7-c031c61247b2",
+            "violations": []
+        }
+    ],
+    "source": "q20_keyboard.kicad_sch"
+}

@@ -1,0 +1,20 @@
+# Binary files: no text diffs or line-ending changes
+*.pdf binary
+*.zip binary
+*.png binary
+*.jpg binary
+*.xlsx binary
+*.dwg binary
+*.step binary
+*.stp binary
+*.wrl binary
+*.so binary
+# KiCad and generated text: keep LF
+*.kicad_pcb text eol=lf
+*.kicad_sch text eol=lf
+*.kicad_pro text eol=lf
+*.kicad_sym text eol=lf
+*.kicad_mod text eol=lf
+*.kicad_dru text eol=lf
+# Third-party documents: store exactly as received
+datasheets/** -text

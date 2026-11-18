@@ -1,0 +1,10 @@
+(fp_lib_table
+	(version 7)
+	(lib
+		(name "cm5h")
+		(type "KiCad")
+		(uri "${KIPRJMOD}/lib/cm5h.pretty")
+		(options "")
+		(descr "CM5 handheld project footprints (from datasheet drawings)")
+	)
+)

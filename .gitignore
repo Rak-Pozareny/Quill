@@ -1,0 +1,23 @@
+# Raw downloads: large, never change, include code clones. The documents the design rests on are in datasheets/.
+/research/dl/
+# Snapshots from before git (see archive/README.md)
+/archive/*
+!/archive/README.md
+# Build products and caches
+/build/
+__pycache__/
+*.pyc
+# KiCad: per-user view settings, backups, locks, caches
+*.kicad_prl
+*-backups/
+*.lck
+fp-info-cache
+_autosave-*
+*.bak
+# Not published (kept locally, see tools/datasheets.py LOCAL_ONLY): a supplier's private email and its attachments,
+# and documents whose public source is not recorded
+/datasheets/modules/display_DMKDI0400S0CA/spec_*
+/datasheets/modules/display_DMKDI0400S0CA/drawing_*
+/datasheets/modules/display_DMKDI0400S0CA/ST7703_init_*
+/datasheets/modules/display_DMKDI0400S0CA/reply_*
+/research/img/panel*

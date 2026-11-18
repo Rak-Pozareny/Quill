@@ -1,0 +1,200 @@
+{
+ "SE50_out_0.155": {
+  "model": "CoatedMicrostrip1B",
+  "W_mm": 0.155,
+  "S_mm": null,
+  "arg_mil": {
+   "H1": 3.913,
+   "Er1": 4.1,
+   "T1": 1.6,
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "W1": 6.102,
+   "W2": 5.602,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false,
+   "W2LinkW1Incr": 0.5
+  },
+  "Z": 50.2734181838
+ },
+ "SE50_in_0.125": {
+  "model": "OffsetStripline1B1A",
+  "W_mm": 0.125,
+  "S_mm": null,
+  "arg_mil": {
+   "H1": 3.937,
+   "Er1": 4.36,
+   "H2": 29.685,
+   "Er2": 4.4,
+   "T1": 0.6,
+   "W1": 4.921,
+   "W2": 4.421,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false,
+   "W2LinkW1Incr": 0.5
+  },
+  "Z": 50.5499965416
+ },
+ "D90_out_0.12_0.11": {
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B",
+  "W_mm": 0.12,
+  "S_mm": 0.11,
+  "arg_mil": {
+   "H1": 3.913,
+   "Er1": 4.1,
+   "T1": 1.6,
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "W1": 4.724,
+   "W2": 4.224,
+   "S1": 4.331,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false,
+   "W2LinkW1Incr": 0.5
+  },
+  "Z": 89.6415116647
+ },
+ "D90_in_0.10_0.11": {
+  "model": "DiffOffsetStripline1B1A",
+  "W_mm": 0.1,
+  "S_mm": 0.11,
+  "arg_mil": {
+   "H1": 3.937,
+   "Er1": 4.36,
+   "H2": 29.685,
+   "Er2": 4.4,
+   "T1": 0.6,
+   "W1": 3.937,
+   "W2": 3.437,
+   "S1": 4.331,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false,
+   "W2LinkW1Incr": 0.5
+  },
+  "Z": 90.1179239323
+ },
+ "D85_out_0.13_0.10": {
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B",
+  "W_mm": 0.13,
+  "S_mm": 0.1,
+  "arg_mil": {
+   "H1": 3.913,
+   "Er1": 4.1,
+   "T1": 1.6,
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "W1": 5.118,
+   "W2": 4.618,
+   "S1": 3.937,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false,
+   "W2LinkW1Incr": 0.5
+  },
+  "Z": 84.9087434549
+ },
+ "D85_in_0.11_0.10": {
+  "model": "DiffOffsetStripline1B1A",
+  "W_mm": 0.11,
+  "S_mm": 0.1,
+  "arg_mil": {
+   "H1": 3.937,
+   "Er1": 4.36,
+   "H2": 29.685,
+   "Er2": 4.4,
+   "T1": 0.6,
+   "W1": 4.331,
+   "W2": 3.831,
+   "S1": 3.937,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false,
+   "W2LinkW1Incr": 0.5
+  },
+  "Z": 85.0902480392
+ },
+ "D100_out_0.11_0.155": {
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B",
+  "W_mm": 0.11,
+  "S_mm": 0.155,
+  "arg_mil": {
+   "H1": 3.913,
+   "Er1": 4.1,
+   "T1": 1.6,
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "W1": 4.331,
+   "W2": 3.831,
+   "S1": 6.102,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false,
+   "W2LinkW1Incr": 0.5
+  },
+  "Z": 100.075667605
+ },
+ "D100_out_0.10_0.15": {
+  "model": "DiffEdgeCoupledCoatedMicrostrip1B",
+  "W_mm": 0.1,
+  "S_mm": 0.15,
+  "arg_mil": {
+   "H1": 3.913,
+   "Er1": 4.1,
+   "T1": 1.6,
+   "C1": 1.0,
+   "C2": 0.6,
+   "C3": 1.0,
+   "CEr": 3.8,
+   "W1": 3.937,
+   "W2": 3.437,
+   "S1": 5.906,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false,
+   "W2LinkW1Incr": 0.5
+  },
+  "Z": 102.915069473
+ },
+ "D100_in_0.10_0.20": {
+  "model": "DiffOffsetStripline1B1A",
+  "W_mm": 0.1,
+  "S_mm": 0.2,
+  "arg_mil": {
+   "H1": 3.937,
+   "Er1": 4.36,
+   "H2": 29.685,
+   "Er2": 4.4,
+   "T1": 0.6,
+   "W1": 3.937,
+   "W2": 3.437,
+   "S1": 7.874,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false,
+   "W2LinkW1Incr": 0.5
+  },
+  "Z": 100.335511911
+ },
+ "D100_in_0.09_0.15": {
+  "model": "DiffOffsetStripline1B1A",
+  "W_mm": 0.09,
+  "S_mm": 0.15,
+  "arg_mil": {
+   "H1": 3.937,
+   "Er1": 4.36,
+   "H2": 29.685,
+   "Er2": 4.4,
+   "T1": 0.6,
+   "W1": 3.543,
+   "W2": 3.043,
+   "S1": 5.906,
+   "dCalculateMode": 3,
+   "isLinkComputingMode": false,
+   "W2LinkW1Incr": 0.5
+  },
+  "Z": 99.7937559496
+ }
+}

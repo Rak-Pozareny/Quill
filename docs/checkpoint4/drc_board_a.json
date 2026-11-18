@@ -1,0 +1,281 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-22T06:58:43",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        },
+        {
+            "description": "Footprint not found in libraries",
+            "key": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint doesn't match copy in library",
+            "key": "lib_footprint_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "cm5_carrier.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Skew between tracks out of range (rule 'USB 3 skew' max skew 0,1270 mm; actual -0,2977 mm; target net length 2,9999 mm (from /LTE modem (M.2 Key-B) and nano-SIM/USB3_LTE_TXC_N); actual 2,7021 mm)",
+            "items": [
+                {
+                    "description": "Track [/LTE modem (M.2 Key-B) and nano-SIM/USB3_LTE_TXC_P] on B.Cu, length 0,3845 mm",
+                    "pos": {
+                        "x": 133.919999,
+                        "y": 111.15
+                    },
+                    "uuid": "c6b07c39-05a1-4062-ad92-2d09cf4ebecb"
+                }
+            ],
+            "severity": "warning",
+            "type": "skew_out_of_range"
+        },
+        {
+            "description": "Skew between tracks out of range (rule 'USB 2.0 skew' max skew 1,2700 mm; actual -2,4460 mm; target net length 14,6819 mm (from USBC_DN); actual 12,2359 mm)",
+            "items": [
+                {
+                    "description": "Track [USBC_DP] on In3.Cu, length 0,8132 mm",
+                    "pos": {
+                        "x": 109.5475,
+                        "y": 110.8375
+                    },
+                    "uuid": "b2df9f2c-b5fd-4155-8a3f-d3b4a00c038d"
+                }
+            ],
+            "severity": "warning",
+            "type": "skew_out_of_range"
+        },
+        {
+            "description": "Skew between tracks out of range (rule 'USB 2.0 skew' max skew 1,2700 mm; actual -3,1390 mm; target net length 16,6066 mm (from /Power input, charger, battery/PD_BC_DP); actual 13,4676 mm)",
+            "items": [
+                {
+                    "description": "Track [/Power input, charger, battery/PD_BC_DN] on In3.Cu, length 4,4500 mm",
+                    "pos": {
+                        "x": 112.2475,
+                        "y": 107.8625
+                    },
+                    "uuid": "e6132832-985b-4e3d-8dbf-f155fabfa326"
+                }
+            ],
+            "severity": "warning",
+            "type": "skew_out_of_range"
+        },
+        {
+            "description": "Skew between tracks out of range (rule 'PCIe reference clock skew' max skew 0,1270 mm; actual -0,1314 mm; target net length 3,5848 mm (from PCIE_REFCLK_N); actual 3,4534 mm)",
+            "items": [
+                {
+                    "description": "Track [PCIE_REFCLK_P] on F.Cu, length 0,4451 mm",
+                    "pos": {
+                        "x": 112.77,
+                        "y": 142.4025
+                    },
+                    "uuid": "e23390db-f8f7-49c4-b6d1-aa18892aa179"
+                }
+            ],
+            "severity": "warning",
+            "type": "skew_out_of_range"
+        },
+        {
+            "comment": "",
+            "description": "PTH inside courtyard",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "PTH pad 1 [GND] of H303",
+                    "pos": {
+                        "x": 115.99,
+                        "y": 112.78
+                    },
+                    "uuid": "e70e167a-655b-4656-8d9c-8ec89bb41e01"
+                },
+                {
+                    "description": "Footprint J301",
+                    "pos": {
+                        "x": 132.5,
+                        "y": 136.75
+                    },
+                    "uuid": "f8e77632-e9c6-408f-9e8a-3bc3e9e05b4a"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "comment": "",
+            "description": "PTH inside courtyard",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "PTH pad 1 [GND] of H304",
+                    "pos": {
+                        "x": 148.99,
+                        "y": 112.78
+                    },
+                    "uuid": "50055523-c111-45f1-970a-02cfd7dbde8e"
+                },
+                {
+                    "description": "Footprint J301",
+                    "pos": {
+                        "x": 132.5,
+                        "y": 136.75
+                    },
+                    "uuid": "f8e77632-e9c6-408f-9e8a-3bc3e9e05b4a"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "comment": "",
+            "description": "PTH inside courtyard",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "PTH pad 1 [GND] of H501",
+                    "pos": {
+                        "x": 134.5,
+                        "y": 157.225
+                    },
+                    "uuid": "b3e22bbe-6fbf-4164-9a8a-54de36468658"
+                },
+                {
+                    "description": "Footprint J301",
+                    "pos": {
+                        "x": 132.5,
+                        "y": 136.75
+                    },
+                    "uuid": "f8e77632-e9c6-408f-9e8a-3bc3e9e05b4a"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "comment": "",
+            "description": "PTH inside courtyard",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "PTH pad 1 [GND] of H301",
+                    "pos": {
+                        "x": 149.01,
+                        "y": 160.73
+                    },
+                    "uuid": "6aa71d25-8082-49d1-8029-30a10cfcfbec"
+                },
+                {
+                    "description": "Footprint J301",
+                    "pos": {
+                        "x": 132.5,
+                        "y": 136.75
+                    },
+                    "uuid": "f8e77632-e9c6-408f-9e8a-3bc3e9e05b4a"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "comment": "",
+            "description": "NPTH inside courtyard",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "NPTH pad of J501",
+                    "pos": {
+                        "x": 144.5,
+                        "y": 117.975
+                    },
+                    "uuid": "2bc76028-a2b7-4820-bd24-601685bbdb74"
+                },
+                {
+                    "description": "Footprint J301",
+                    "pos": {
+                        "x": 132.5,
+                        "y": 136.75
+                    },
+                    "uuid": "f8e77632-e9c6-408f-9e8a-3bc3e9e05b4a"
+                }
+            ],
+            "severity": "error",
+            "type": "npth_inside_courtyard"
+        },
+        {
+            "comment": "",
+            "description": "NPTH inside courtyard",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "NPTH pad of J501",
+                    "pos": {
+                        "x": 124.5,
+                        "y": 117.975
+                    },
+                    "uuid": "4c44aa67-0273-4ead-a4fa-65472a3b4213"
+                },
+                {
+                    "description": "Footprint J301",
+                    "pos": {
+                        "x": 132.5,
+                        "y": 136.75
+                    },
+                    "uuid": "f8e77632-e9c6-408f-9e8a-3bc3e9e05b4a"
+                }
+            ],
+            "severity": "error",
+            "type": "npth_inside_courtyard"
+        },
+        {
+            "comment": "",
+            "description": "PTH inside courtyard",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "PTH pad 1 [GND] of H302",
+                    "pos": {
+                        "x": 116.01,
+                        "y": 160.73
+                    },
+                    "uuid": "99ecc2b4-11c7-453d-9588-01dc8709401b"
+                },
+                {
+                    "description": "Footprint J301",
+                    "pos": {
+                        "x": 132.5,
+                        "y": 136.75
+                    },
+                    "uuid": "f8e77632-e9c6-408f-9e8a-3bc3e9e05b4a"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        }
+    ]
+}

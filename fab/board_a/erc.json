@@ -1,0 +1,87 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-11T17:03:01",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/a422896c-4da1-5a8a-b11a-9339dca9398e",
+            "violations": []
+        },
+        {
+            "path": "/Power input, charger, battery/",
+            "uuid_path": "/a422896c-4da1-5a8a-b11a-9339dca9398e/50fbbe76-edc4-5c15-8ccc-2ff6eca9ca5a",
+            "violations": []
+        },
+        {
+            "path": "/Power rails/",
+            "uuid_path": "/a422896c-4da1-5a8a-b11a-9339dca9398e/8882da4a-a7a0-591e-bb41-1a43ddaac8e5",
+            "violations": []
+        },
+        {
+            "path": "/CM5 module, buttons, RTC, debug/",
+            "uuid_path": "/a422896c-4da1-5a8a-b11a-9339dca9398e/ab540b6b-8a02-50c7-b4ed-854a7f4be993",
+            "violations": []
+        },
+        {
+            "path": "/USB: USB-C data, hub, USB-A ports/",
+            "uuid_path": "/a422896c-4da1-5a8a-b11a-9339dca9398e/c0ad2052-ceda-50a9-8e67-14ab5d375ec9",
+            "violations": []
+        },
+        {
+            "path": "/LTE modem (M.2 Key-B) and nano-SIM/",
+            "uuid_path": "/a422896c-4da1-5a8a-b11a-9339dca9398e/d3e1fd47-5459-5b41-bc7d-9633c9624b24",
+            "violations": []
+        },
+        {
+            "path": "/Wi-Fi 6 / BT 5 (AP6275P)/",
+            "uuid_path": "/a422896c-4da1-5a8a-b11a-9339dca9398e/f9ad7998-e0b3-52de-a9b2-5ea2131dc711",
+            "violations": []
+        },
+        {
+            "path": "/Display, touch, backlight, digitizer, cameras/",
+            "uuid_path": "/a422896c-4da1-5a8a-b11a-9339dca9398e/41050165-34ca-53c0-8883-6894eb31df2e",
+            "violations": []
+        },
+        {
+            "path": "/Audio: 2 x class-D amplifier, speakers, PDM microphone/",
+            "uuid_path": "/a422896c-4da1-5a8a-b11a-9339dca9398e/9193d449-14b5-568e-bc66-e10a4a1a63db",
+            "violations": []
+        },
+        {
+            "path": "/microSD/",
+            "uuid_path": "/a422896c-4da1-5a8a-b11a-9339dca9398e/a70611c7-aeae-5ba7-80f8-2e1d45082ec0",
+            "violations": []
+        },
+        {
+            "path": "/Keyboard interface (FFC to Board B)/",
+            "uuid_path": "/a422896c-4da1-5a8a-b11a-9339dca9398e/cc7669c0-e8d3-5252-bba7-c031c61247b2",
+            "violations": []
+        }
+    ],
+    "source": "cm5_carrier.kicad_sch"
+}

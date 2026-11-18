@@ -1,0 +1,1021 @@
+// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
+/*
+ * Orange Pi CM5 on the CM5 handheld carrier (Board A), for Orange Pi's Linux 6.1 kernel
+ * (orangepi-xunlong/linux-orangepi, branch orange-pi-6.1-rk35xx).
+ *
+ * Pins: docs/opi/opi_cm5_pin_map.csv. Templates: Orange Pi's rk3588s-orangepi-cm5(-tablet).dts and
+ * rk3588s-orangepi-5.dtsi (AP6275P on pcie2x1l2 with the same GPIOs), Radxa's camera overlays for the
+ * Camera 13M 214 and 8M 219, Rockchip's rk3588-evb.dtsi (DSI panel node). Items marked UNVERIFIED and the
+ * kernel options this board needs: software/README.md.
+ */
+
+/dts-v1/;
+
+#include <dt-bindings/gpio/gpio.h>
+#include <dt-bindings/pwm/pwm.h>
+#include <dt-bindings/pinctrl/rockchip.h>
+#include <dt-bindings/input/rk-input.h>
+#include <dt-bindings/display/drm_mipi_dsi.h>
+#include <dt-bindings/display/rockchip_vop.h>
+#include <dt-bindings/clock/rk3588-cru.h>
+#include <dt-bindings/power/rk3588-power.h>
+
+#include "rk3588s.dtsi"
+#include "rk3588-rk806-single.dtsi"
+#include "rk3588-linux.dtsi"
+#include "rk3588s-orangepi-cm5-module.dtsi"
+
+/ {
+	model = "Orange Pi CM5 handheld carrier";
+	compatible = "rockchip,rk3588s-orangepi-cm5-handheld", "rockchip,rk3588";
+
+	/* ---------------------------------------------------------------- supplies */
+
+	/* battery / charger output (BQ25713 NVDC, 3.0-4.5 V) */
+	vsys: vsys {
+		compatible = "regulator-fixed";
+		regulator-name = "vsys";
+		regulator-always-on;
+		regulator-boot-on;
+	};
+
+	/* CM5_VIN: TPS61088 boost, 5.03 V, always on while VSYS exists (module VBUS, JP1.77-87) */
+	vcc5v0_sys: vcc5v0-sys {
+		compatible = "regulator-fixed";
+		regulator-name = "vcc5v0_sys";
+		regulator-always-on;
+		regulator-boot-on;
+		regulator-min-microvolt = <5000000>;
+		regulator-max-microvolt = <5000000>;
+		vin-supply = <&vsys>;
+	};
+
+	/* VCC5V0: TPS61089 boost for USB-A, keyboard, CAM-A 5 V; EN_5V = GPIO0_D5 (also pulled up on the board) */
+	vcc5v0: vcc5v0 {
+		compatible = "regulator-fixed";
+		regulator-name = "vcc5v0";
+		regulator-always-on;
+		regulator-boot-on;
+		regulator-min-microvolt = <5000000>;
+		regulator-max-microvolt = <5000000>;
+		enable-active-high;
+		gpio = <&gpio0 RK_PD5 GPIO_ACTIVE_HIGH>;
+		pinctrl-names = "default";
+		pinctrl-0 = <&en_5v>;
+		vin-supply = <&vsys>;
+	};
+
+	/* VCC3V3_AUX: TPS63020, enabled by the module's VCC_3V3_S3 in hardware (Wi-Fi VBAT, USB hub, cameras) */
+	vcc3v3_aux: vcc3v3-aux {
+		compatible = "regulator-fixed";
+		regulator-name = "vcc3v3_aux";
+		regulator-always-on;
+		regulator-boot-on;
+		regulator-min-microvolt = <3300000>;
+		regulator-max-microvolt = <3300000>;
+		vin-supply = <&vsys>;
+	};
+
+	/*
+	 * LTE modem: VCC_LTE (TPS63020, 3.75 V, EN = LTE_PWR_EN GPIO0_C4), then FULL_CARD_POWER_OFF# (GPIO0_C2,
+	 * high = modem on) once VCC_LTE is up. Turning "vcc_lte_on" off powers the modem down in that order.
+	 */
+	vcc_lte: vcc-lte {
+		compatible = "regulator-fixed";
+		regulator-name = "vcc_lte";
+		regulator-min-microvolt = <3750000>;
+		regulator-max-microvolt = <3750000>;
+		enable-active-high;
+		gpio = <&gpio0 RK_PC4 GPIO_ACTIVE_HIGH>;
+		startup-delay-us = <50000>;
+		pinctrl-names = "default";
+		pinctrl-0 = <&lte_pwr_en>;
+		vin-supply = <&vsys>;
+	};
+
+	vcc_lte_on: vcc-lte-on {
+		compatible = "regulator-fixed";
+		regulator-name = "vcc_lte_on";
+		regulator-always-on;
+		regulator-boot-on;
+		regulator-min-microvolt = <3750000>;
+		regulator-max-microvolt = <3750000>;
+		enable-active-high;
+		gpio = <&gpio0 RK_PC2 GPIO_ACTIVE_HIGH>;
+		pinctrl-names = "default";
+		pinctrl-0 = <&lte_fcpo>;
+		vin-supply = <&vcc_lte>;
+	};
+
+	/* panel VCI 3.3 V: TPS22919 load switch, ON = LCD_PWREN GPIO4_A7 */
+	vcc_lcd: vcc-lcd {
+		compatible = "regulator-fixed";
+		regulator-name = "vcc_lcd";
+		regulator-min-microvolt = <3300000>;
+		regulator-max-microvolt = <3300000>;
+		enable-active-high;
+		gpio = <&gpio4 RK_PA7 GPIO_ACTIVE_HIGH>;
+		pinctrl-names = "default";
+		pinctrl-0 = <&lcd_pwren>;
+		vin-supply = <&vcc_3v3_s3>;
+	};
+
+	/* CAM-B (Radxa Camera 8M 219) enable on its CAM_IO0 line (GPIO3_C4), held high as Radxa's overlay does */
+	camb_pwdn: camb-pwdn {
+		compatible = "regulator-fixed";
+		regulator-name = "camb_pwdn";
+		regulator-always-on;
+		regulator-boot-on;
+		enable-active-high;
+		gpio = <&gpio3 RK_PC4 GPIO_ACTIVE_HIGH>;
+		pinctrl-names = "default";
+		pinctrl-0 = <&camb_io0>;
+		vin-supply = <&vcc3v3_aux>;
+	};
+
+	/* the 8M 219 module runs from its own 24 MHz oscillator (Radxa overlay radxa-cm5-io-radxa-camera-8m) */
+	clk_cam_24m: external-camera-clock-24m {
+		compatible = "fixed-clock";
+		clock-frequency = <24000000>;
+		clock-output-names = "clk_cam_24m";
+		#clock-cells = <0>;
+	};
+
+	/* ---------------------------------------------------------------- user interface */
+
+	/* panel backlight: TPS61169 CTRL on PWM13_M1 (GPIO4_B6), 25 kHz (TPS61169: 5-100 kHz) */
+	backlight: backlight {
+		compatible = "pwm-backlight";
+		pwms = <&pwm13 0 40000 0>;
+		power-supply = <&vsys>;
+		brightness-levels = <0 255>;
+		num-interpolated-steps = <255>;
+		default-brightness-level = <180>;
+	};
+
+	/* SARADC_IN1 (JP1.68), 10k pull-up to 1.8 V on the module: Recovery 0 V, Vol+ 0.32 V (2.2k), Vol- 0.73 V (6.8k) */
+	adc_keys: adc-keys {
+		compatible = "adc-keys";
+		io-channels = <&saradc 1>;
+		io-channel-names = "buttons";
+		keyup-threshold-microvolt = <1800000>;
+		poll-interval = <100>;
+
+		recovery-key {
+			label = "recovery";
+			linux,code = <KEY_PROG1>;
+			press-threshold-microvolt = <0>;
+		};
+
+		vol-up-key {
+			label = "volume up";
+			linux,code = <KEY_VOLUMEUP>;
+			press-threshold-microvolt = <325000>;
+		};
+
+		vol-down-key {
+			label = "volume down";
+			linux,code = <KEY_VOLUMEDOWN>;
+			press-threshold-microvolt = <729000>;
+		};
+	};
+
+	/* LTE modem WAKE_ON_WAN# (open drain, 10k to 1.8 V) on GPIO0_D3: wakes the system on SMS / call */
+	gpio_keys: gpio-keys {
+		compatible = "gpio-keys";
+		pinctrl-names = "default";
+		pinctrl-0 = <&lte_wake>;
+
+		lte-wake {
+			label = "lte-wake";
+			gpios = <&gpio0 RK_PD3 GPIO_ACTIVE_LOW>;
+			linux,code = <KEY_WAKEUP>;
+			debounce-interval = <10>;
+			wakeup-source;
+		};
+	};
+
+	leds: gpio-leds {
+		compatible = "gpio-leds";
+		pinctrl-names = "default";
+		pinctrl-0 = <&led_status>;
+
+		status-led {
+			label = "status";
+			gpios = <&gpio4 RK_PA4 GPIO_ACTIVE_HIGH>;
+			linux,default-trigger = "heartbeat";
+		};
+	};
+
+	/* ---------------------------------------------------------------- audio */
+
+	/* 2 x MAX98357A on I2S0: one stream, the left amplifier takes the left channel and the right one the right
+	 * (resistors on SD_MODE); one GPIO (AMP_SD_MODE, GPIO4_A2) shuts both down */
+	amp: max98357a {
+		compatible = "maxim,max98357a";
+		#sound-dai-cells = <0>;
+		sdmode-gpios = <&gpio4 RK_PA2 GPIO_ACTIVE_HIGH>;
+		pinctrl-names = "default";
+		pinctrl-0 = <&amp_sd_mode>;
+	};
+
+	speaker_sound: speaker-sound {
+		compatible = "simple-audio-card";
+		simple-audio-card,name = "speakers";
+		simple-audio-card,format = "i2s";
+		simple-audio-card,mclk-fs = <256>;
+
+		simple-audio-card,cpu {
+			sound-dai = <&i2s0_8ch>;
+		};
+
+		simple-audio-card,codec {
+			sound-dai = <&amp>;
+		};
+	};
+
+	/* Knowles SPH0641LU4H-1 PDM microphone on PDM0_M0 (CLK0 GPIO1_C6, SDI0 GPIO1_D5), SEL low */
+	dmic: dmic {
+		compatible = "dmic-codec";
+		#sound-dai-cells = <0>;
+		num-channels = <1>;
+	};
+
+	mic_sound: mic-sound {
+		compatible = "simple-audio-card";
+		simple-audio-card,name = "microphone";
+		simple-audio-card,format = "pdm";
+		simple-audio-card,mclk-fs = <256>;
+
+		simple-audio-card,cpu {
+			sound-dai = <&pdm0>;
+		};
+
+		simple-audio-card,codec {
+			sound-dai = <&dmic>;
+		};
+	};
+
+	/* ---------------------------------------------------------------- Wi-Fi / Bluetooth (AMPAK AP6275P) */
+
+	/* as Orange Pi 5 (rk3588s-orangepi-5.dtsi) and the CM5 tablet: same GPIOs, UART9_M2, pcie2x1l2 */
+	wireless_wlan: wireless-wlan {
+		compatible = "wlan-platdata";
+		wifi_chip_type = "ap6275p";
+		pinctrl-names = "default";
+		pinctrl-0 = <&wifi_host_wake_irq>, <&wifi_poweren_gpio>;
+		WIFI,host_wake_irq = <&gpio0 RK_PA0 GPIO_ACTIVE_HIGH>;
+		WIFI,poweren_gpio = <&gpio0 RK_PD0 GPIO_ACTIVE_HIGH>;
+		status = "okay";
+	};
+
+	wireless_bluetooth: wireless-bluetooth {
+		compatible = "bluetooth-platdata";
+		clocks = <&rtc>;
+		clock-names = "ext_clock";
+		uart_rts_gpios = <&gpio3 RK_PD2 GPIO_ACTIVE_LOW>;
+		pinctrl-names = "default", "rts_gpio";
+		pinctrl-0 = <&uart9m2_rtsn>, <&bt_reset_gpio>, <&bt_wake_gpio>, <&bt_irq_gpio>;
+		pinctrl-1 = <&uart9_gpios>;
+		BT,reset_gpio    = <&gpio0 RK_PC7 GPIO_ACTIVE_HIGH>;
+		BT,wake_gpio     = <&gpio0 RK_PC6 GPIO_ACTIVE_HIGH>;
+		BT,wake_host_irq = <&gpio0 RK_PC5 GPIO_ACTIVE_HIGH>;
+		status = "okay";
+	};
+
+	/* ---------------------------------------------------------------- CAM-B I2C */
+
+	/*
+	 * CAM-B's I2C runs on GPIO1_A0 (SDA, JP2.2) / GPIO1_A1 (SCL, JP2.4): their only I2C function is I2C2_M4,
+	 * and I2C2 serves the module's NPU regulator (i2c2m0, below), so this bus is bit-banged. 2.2k pull-ups
+	 * to 3.3 V on the board.
+	 */
+	i2c_camb: i2c-camb {
+		compatible = "i2c-gpio";
+		sda-gpios = <&gpio1 RK_PA0 (GPIO_ACTIVE_HIGH | GPIO_OPEN_DRAIN)>;
+		scl-gpios = <&gpio1 RK_PA1 (GPIO_ACTIVE_HIGH | GPIO_OPEN_DRAIN)>;
+		i2c-gpio,delay-us = <5>;	/* ~100 kHz */
+		pinctrl-names = "default";
+		pinctrl-0 = <&i2c_camb_pins>;
+		#address-cells = <1>;
+		#size-cells = <0>;
+
+		camera_imx219: camera-imx219@10 {
+			compatible = "sony,imx219";
+			reg = <0x10>;
+			clocks = <&clk_cam_24m>;
+			clock-names = "xvclk";
+			rockchip,camera-module-index = <1>;
+			rockchip,camera-module-facing = "front";
+			rockchip,camera-module-name = "RADXA-CAMERA-8M";
+			rockchip,camera-module-lens-name = "default";
+
+			port {
+				imx219_out: endpoint {
+					remote-endpoint = <&dcphy0_in_imx219>;
+					data-lanes = <1 2>;
+				};
+			};
+		};
+	};
+};
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* PMIC sleep pins: GPIO0_C2 (pmic_sleep4) is the modem's FULL_CARD_POWER_OFF# on this board, as Orange Pi frees  */
+/* it on the CM5 tablet                                                                                         */
+
+&pmic_pins {
+	rockchip,pins =
+		/* pmic_int_l */
+		<0 RK_PA7 0 &pcfg_pull_up>,
+		/* pmic_sleep1 */
+		<0 RK_PA2 1 &pcfg_pull_down>,
+		/* pmic_sleep2 */
+		<0 RK_PA3 1 &pcfg_pull_none>,
+		/* pmic_sleep3 */
+		<0 RK_PC1 1 &pcfg_pull_none>,
+		/* pmic_sleep5 */
+		<0 RK_PC3 1 &pcfg_pull_none>,
+		/* pmic_sleep6 */
+		<0 RK_PD6 1 &pcfg_pull_none>;
+};
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* microSD (SDMMC, JP1.57-69), detect on GPIO0_A4 (SDMMC_DET); VDD from VCC_3V3_S3 through the 0 ohm link        */
+
+&sdmmc {
+	max-frequency = <150000000>;
+	no-sdio;
+	no-mmc;
+	bus-width = <4>;
+	cap-mmc-highspeed;
+	cap-sd-highspeed;
+	disable-wp;
+	sd-uhs-sdr104;
+	vmmc-supply = <&vcc_3v3_s3>;
+	vqmmc-supply = <&vccio_sd_s0>;
+	status = "okay";
+};
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* System I2C: I2C4_M3 (GPIO1_A2 SDA / A3 SCL, 3.3 V)                                                            */
+
+&i2c4 {
+	status = "okay";
+	pinctrl-names = "default";
+	pinctrl-0 = <&i2c4m3_xfer>;
+
+	/*
+	 * BM8563 RTC: a PCF8563 clone like the HYM8563 (same register map), run with Orange Pi's HYM8563 driver;
+	 * CLKOUT (32.768 kHz) is the Wi-Fi / BT sleep clock and also reaches the SoC's CLK32K_IN (JP3.96)
+	 */
+	rtc: rtc@51 {
+		compatible = "haoyu,hym8563";
+		reg = <0x51>;
+		#clock-cells = <0>;
+		clock-frequency = <32768>;
+		clock-output-names = "hym8563";
+		pinctrl-names = "default";
+		pinctrl-0 = <&rtc_int>;
+		interrupt-parent = <&gpio0>;
+		interrupts = <RK_PB0 IRQ_TYPE_LEVEL_LOW>;
+		wakeup-source;
+	};
+
+	/* MAX17055 fuel gauge, 4 mOhm sense resistor (R126); I2C address UNVERIFIED (0x36: Linux binding example) */
+	fuel_gauge: fuel-gauge@36 {
+		compatible = "maxim,max17055";
+		reg = <0x36>;
+		maxim,rsns-microohm = <4000>;
+		pinctrl-names = "default";
+		pinctrl-0 = <&fg_alrt>;
+		interrupt-parent = <&gpio3>;
+		interrupts = <RK_PB2 IRQ_TYPE_LEVEL_LOW>;
+	};
+
+	/* TPS25751 USB-C PD controller at 0x20: no driver for it in this kernel; it runs from its EEPROM */
+};
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* Touch (GT911 on the panel tail) and keyboard (RP2040, i2c_puppet 0x1F): I2C6_M3 (GPIO4_B0 SDA / B1 SCL, 3.3 V) */
+
+&i2c6 {
+	status = "okay";
+	pinctrl-names = "default";
+	pinctrl-0 = <&i2c6m3_xfer>;
+
+	touchscreen: touchscreen@5d {
+		compatible = "goodix,gt911";
+		reg = <0x5d>;
+		interrupt-parent = <&gpio1>;
+		interrupts = <RK_PB2 IRQ_TYPE_EDGE_FALLING>;
+		irq-gpios = <&gpio1 RK_PB2 GPIO_ACTIVE_HIGH>;
+		reset-gpios = <&gpio1 RK_PB3 GPIO_ACTIVE_HIGH>;
+		pinctrl-names = "default";
+		pinctrl-0 = <&tp_pins>;
+		touchscreen-size-x = <720>;
+		touchscreen-size-y = <720>;
+	};
+
+	/* the keyboard also enumerates as a USB HID keyboard on hub port 3; its I2C interface needs an out-of-tree
+	 * driver (i2c_puppet / bbq10kbd) and is not described here */
+};
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* CAM-A (rear, Radxa Camera 13M 214, 4 lanes) on MIPI_CSI0 = csi2_dphy0 in full mode; I2C3_M1 (GPIO3_B7 SCL /    */
+/* C0 SDA, 1.8 V), MCLK = MIPI_CAMERA1_CLK_M1 (GPIO3_A6), PDN GPIO3_C5, RESET GPIO3_C6                            */
+
+&i2c3 {
+	status = "okay";
+	pinctrl-names = "default";
+	pinctrl-0 = <&i2c3m1_xfer>;
+
+	dw9714: dw9714@c {
+		compatible = "dongwoon,dw9714";
+		reg = <0x0c>;
+		rockchip,vcm-start-current = <10>;
+		rockchip,vcm-rated-current = <85>;
+		rockchip,vcm-step-mode = <3>;
+		rockchip,camera-module-index = <0>;
+		rockchip,camera-module-facing = "back";
+	};
+
+	imx214: imx214@10 {
+		compatible = "sony,imx214";
+		reg = <0x10>;
+		clocks = <&cru CLK_MIPI_CAMARAOUT_M1>;
+		clock-names = "xvclk";
+		pinctrl-names = "default";
+		pinctrl-0 = <&mipim1_camera1_clk>, <&cama_pins>;
+		power-domains = <&power RK3588_PD_VI>;
+		pwdn-gpios = <&gpio3 RK_PC5 GPIO_ACTIVE_HIGH>;
+		reset-gpios = <&gpio3 RK_PC6 GPIO_ACTIVE_HIGH>;
+		rockchip,camera-module-index = <0>;
+		rockchip,camera-module-facing = "back";
+		rockchip,camera-module-name = "RADXA-CAMERA-13M";
+		rockchip,camera-module-lens-name = "DEFAULT";
+		lens-focus = <&dw9714>;
+
+		port {
+			imx214_out: endpoint {
+				remote-endpoint = <&dphy0_in_imx214>;
+				data-lanes = <1 2 3 4>;
+			};
+		};
+	};
+};
+
+&csi2_dphy0_hw {
+	status = "okay";
+};
+
+&csi2_dphy0 {
+	status = "okay";
+
+	ports {
+		#address-cells = <1>;
+		#size-cells = <0>;
+
+		port@0 {
+			reg = <0>;
+			#address-cells = <1>;
+			#size-cells = <0>;
+
+			dphy0_in_imx214: endpoint@1 {
+				reg = <1>;
+				remote-endpoint = <&imx214_out>;
+				data-lanes = <1 2 3 4>;
+			};
+		};
+
+		port@1 {
+			reg = <1>;
+			#address-cells = <1>;
+			#size-cells = <0>;
+
+			dphy0_out: endpoint@0 {
+				reg = <0>;
+				remote-endpoint = <&mipi2_csi2_input>;
+			};
+		};
+	};
+};
+
+&mipi2_csi2 {
+	status = "okay";
+
+	ports {
+		#address-cells = <1>;
+		#size-cells = <0>;
+
+		port@0 {
+			reg = <0>;
+			#address-cells = <1>;
+			#size-cells = <0>;
+
+			mipi2_csi2_input: endpoint@1 {
+				reg = <1>;
+				remote-endpoint = <&dphy0_out>;
+			};
+		};
+
+		port@1 {
+			reg = <1>;
+			#address-cells = <1>;
+			#size-cells = <0>;
+
+			mipi2_csi2_output: endpoint@0 {
+				reg = <0>;
+				remote-endpoint = <&cif_mipi2_in>;
+			};
+		};
+	};
+};
+
+&rkcif_mipi_lvds2 {
+	status = "okay";
+
+	port {
+		cif_mipi2_in: endpoint {
+			remote-endpoint = <&mipi2_csi2_output>;
+		};
+	};
+};
+
+&rkcif_mipi_lvds2_sditf {
+	status = "okay";
+
+	port {
+		mipi_lvds2_sditf: endpoint {
+			remote-endpoint = <&isp0_vir0>;
+		};
+	};
+};
+
+&rkisp0_vir0 {
+	status = "okay";
+
+	port {
+		#address-cells = <1>;
+		#size-cells = <0>;
+
+		isp0_vir0: endpoint@0 {
+			reg = <0>;
+			remote-endpoint = <&mipi_lvds2_sditf>;
+		};
+	};
+};
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* CAM-B (front, Radxa Camera 8M 219, 2 lanes) on MIPI_DPHY0_RX = csi2_dcphy0 (D-PHY mode); I2C on i2c_camb above  */
+
+&csi2_dcphy0 {
+	status = "okay";
+
+	ports {
+		#address-cells = <1>;
+		#size-cells = <0>;
+
+		port@0 {
+			reg = <0>;
+			#address-cells = <1>;
+			#size-cells = <0>;
+
+			dcphy0_in_imx219: endpoint@1 {
+				reg = <1>;
+				remote-endpoint = <&imx219_out>;
+				data-lanes = <1 2>;
+			};
+		};
+
+		port@1 {
+			reg = <1>;
+			#address-cells = <1>;
+			#size-cells = <0>;
+
+			dcphy0_out: endpoint@0 {
+				reg = <0>;
+				remote-endpoint = <&mipi0_csi2_input>;
+			};
+		};
+	};
+};
+
+&mipi0_csi2 {
+	status = "okay";
+
+	ports {
+		#address-cells = <1>;
+		#size-cells = <0>;
+
+		port@0 {
+			reg = <0>;
+			#address-cells = <1>;
+			#size-cells = <0>;
+
+			mipi0_csi2_input: endpoint@1 {
+				reg = <1>;
+				remote-endpoint = <&dcphy0_out>;
+			};
+		};
+
+		port@1 {
+			reg = <1>;
+			#address-cells = <1>;
+			#size-cells = <0>;
+
+			mipi0_csi2_output: endpoint@0 {
+				reg = <0>;
+				remote-endpoint = <&cif_mipi0_in>;
+			};
+		};
+	};
+};
+
+&rkcif_mipi_lvds {
+	status = "okay";
+
+	port {
+		cif_mipi0_in: endpoint {
+			remote-endpoint = <&mipi0_csi2_output>;
+		};
+	};
+};
+
+&rkcif_mipi_lvds_sditf {
+	status = "okay";
+
+	port {
+		mipi_lvds_sditf: endpoint {
+			remote-endpoint = <&isp1_vir0>;
+		};
+	};
+};
+
+&rkisp1_vir0 {
+	status = "okay";
+
+	port {
+		#address-cells = <1>;
+		#size-cells = <0>;
+
+		isp1_vir0: endpoint@0 {
+			reg = <0>;
+			remote-endpoint = <&mipi_lvds_sditf>;
+		};
+	};
+};
+
+&mipi_dcphy0 {
+	status = "okay";
+};
+
+&rkcif {
+	status = "okay";
+};
+
+&rkcif_mmu {
+	status = "okay";
+};
+
+&rkisp0 {
+	status = "okay";
+};
+
+&isp0_mmu {
+	status = "okay";
+};
+
+&rkisp1 {
+	status = "okay";
+};
+
+&isp1_mmu {
+	status = "okay";
+};
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* Display: DisplayModule DMKDI0400S0CA (720 x 720, ST7703) on DSI1, 4 lanes (JP2.75-96), RESET GPIO3_A4, VCI     */
+/* GPIO4_A7. DISABLED: the panel's video timings and its ST7703 initialisation sequence are not in DisplayModule's */
+/* documents (UNVERIFIED, REVIEW.md); fill them in from DisplayModule's code and set the four nodes to "okay".     */
+
+&dsi1 {
+	status = "disabled";
+
+	dsi1_panel: panel@0 {
+		compatible = "simple-panel-dsi";
+		reg = <0>;
+		backlight = <&backlight>;
+		power-supply = <&vcc_lcd>;
+		reset-gpios = <&gpio3 RK_PA4 GPIO_ACTIVE_LOW>;
+		pinctrl-names = "default";
+		pinctrl-0 = <&lcd_rst>;
+		/* delays and flags as Rockchip's rk3588-evb.dtsi; check against DisplayModule's sequence */
+		reset-delay-ms = <10>;
+		enable-delay-ms = <10>;
+		prepare-delay-ms = <10>;
+		unprepare-delay-ms = <10>;
+		disable-delay-ms = <60>;
+		dsi,flags = <(MIPI_DSI_MODE_VIDEO | MIPI_DSI_MODE_VIDEO_BURST |
+			MIPI_DSI_MODE_LPM | MIPI_DSI_MODE_NO_EOT_PACKET)>;
+		dsi,format = <MIPI_DSI_FMT_RGB888>;
+		dsi,lanes = <4>;
+		status = "disabled";
+
+		/* UNVERIFIED: ST7703 init commands from DisplayModule go here */
+		panel-init-sequence = [
+			05 78 01 11
+			05 14 01 29
+		];
+
+		panel-exit-sequence = [
+			05 00 01 28
+			05 00 01 10
+		];
+
+		disp_timings: display-timings {
+			native-mode = <&dsi1_timing0>;
+
+			/* UNVERIFIED: only the active area (720 x 720) is published; clock and porches from DisplayModule */
+			dsi1_timing0: timing0 {
+				clock-frequency = <0>;
+				hactive = <720>;
+				vactive = <720>;
+				hfront-porch = <0>;
+				hsync-len = <0>;
+				hback-porch = <0>;
+				vfront-porch = <0>;
+				vsync-len = <0>;
+				vback-porch = <0>;
+				hsync-active = <0>;
+				vsync-active = <0>;
+				de-active = <0>;
+				pixelclk-active = <0>;
+			};
+		};
+
+		ports {
+			#address-cells = <1>;
+			#size-cells = <0>;
+
+			port@0 {
+				reg = <0>;
+
+				panel_in_dsi1: endpoint {
+					remote-endpoint = <&dsi1_out_panel>;
+				};
+			};
+		};
+	};
+
+	ports {
+		#address-cells = <1>;
+		#size-cells = <0>;
+
+		port@1 {
+			reg = <1>;
+
+			dsi1_out_panel: endpoint {
+				remote-endpoint = <&panel_in_dsi1>;
+			};
+		};
+	};
+};
+
+&dsi1_in_vp3 {
+	status = "disabled";
+};
+
+&route_dsi1 {
+	status = "disabled";
+	connect = <&vp3_out_dsi1>;
+};
+
+&mipi_dcphy1 {
+	status = "okay";
+};
+
+&pwm13 {
+	status = "okay";
+	pinctrl-names = "active";
+	pinctrl-0 = <&pwm13m1_pins>;
+};
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* Audio interfaces                                                                                             */
+
+/* I2S0: SCLK GPIO1_C3 (JP3.71), LRCK GPIO1_C5 (JP3.69), SDO0 GPIO1_C7 (JP3.70); MCLK and SDI0 not connected */
+&i2s0_8ch {
+	status = "okay";
+	pinctrl-0 = <&i2s0_lrck &i2s0_sclk &i2s0_sdo0>;
+	pinctrl-2 = <&i2s0_lrck &i2s0_sclk>;
+};
+
+&pdm0 {
+	status = "okay";
+	pinctrl-0 = <&pdm0m0_clk &pdm0m0_sdi0>;
+	pinctrl-2 = <&pdm0m0_clk>;
+};
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* Wi-Fi PCIe: combo PHY0 (PCIE20_0, JP3.76-90) on pcie2x1l2; PERST# GPIO3_D1; CLKREQ# / WAKE# (GPIO3_C7 / D0)  */
+/* have 10k pull-ups to 1.8 V on the board and stay GPIOs                                                       */
+
+&combphy0_ps {
+	status = "okay";
+};
+
+&pcie2x1l2 {
+	reset-gpios = <&gpio3 RK_PD1 GPIO_ACTIVE_HIGH>;
+	rockchip,skip-scan-in-resume;
+	status = "okay";
+};
+
+/* Bluetooth: UART9_M2 (TX GPIO3_D5, RX D4, RTS D2, CTS D3, 1.8 V) */
+&uart9 {
+	status = "okay";
+	pinctrl-names = "default";
+	pinctrl-0 = <&uart9m2_xfer &uart9m2_ctsn>;
+};
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* USB                                                                                                          */
+
+/* USB-C data: OTG0, USB 2.0 only (the Type-C SuperSpeed pins are not connected); peripheral (Maskrom / gadget) */
+&u2phy0 {
+	status = "okay";
+};
+
+&u2phy0_otg {
+	status = "okay";
+};
+
+&usbdrd3_0 {
+	status = "okay";
+};
+
+&usbdrd_dwc3_0 {
+	dr_mode = "peripheral";
+	maximum-speed = "high-speed";
+	phys = <&u2phy0_otg>;
+	phy-names = "usb2-phy";
+	status = "okay";
+};
+
+/* USB20_HOST0 (JP3.13/15) -> USB2514B hub: USB-A x2, keyboard, digitizer */
+&u2phy2 {
+	status = "okay";
+};
+
+&u2phy2_host {
+	status = "okay";
+};
+
+&usb_host0_ehci {
+	status = "okay";
+};
+
+&usb_host0_ohci {
+	status = "okay";
+};
+
+/* USB20_HOST1 (JP3.1/3) -> LTE modem USB 2.0 */
+&u2phy3 {
+	status = "okay";
+};
+
+&u2phy3_host {
+	status = "okay";
+};
+
+&usb_host1_ehci {
+	status = "okay";
+};
+
+&usb_host1_ohci {
+	status = "okay";
+};
+
+/* combo PHY2 in USB 3.0 mode (JP2.16-24) -> LTE modem USB 3.0 */
+&combphy2_psu {
+	status = "okay";
+};
+
+&usbhost3_0 {
+	status = "okay";
+};
+
+&usbhost_dwc3_0 {
+	dr_mode = "host";
+	status = "okay";
+};
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* Pins                                                                                                         */
+
+&pinctrl {
+	power {
+		en_5v: en-5v {
+			rockchip,pins = <0 RK_PD5 RK_FUNC_GPIO &pcfg_pull_up>;
+		};
+	};
+
+	lte {
+		lte_pwr_en: lte-pwr-en {
+			rockchip,pins = <0 RK_PC4 RK_FUNC_GPIO &pcfg_pull_down>;
+		};
+
+		lte_fcpo: lte-fcpo {
+			rockchip,pins = <0 RK_PC2 RK_FUNC_GPIO &pcfg_pull_down>;
+		};
+
+		lte_wake: lte-wake {
+			rockchip,pins = <0 RK_PD3 RK_FUNC_GPIO &pcfg_pull_none>;
+		};
+	};
+
+	lcd {
+		lcd_pwren: lcd-pwren {
+			rockchip,pins = <4 RK_PA7 RK_FUNC_GPIO &pcfg_pull_down>;
+		};
+
+		lcd_rst: lcd-rst {
+			rockchip,pins = <3 RK_PA4 RK_FUNC_GPIO &pcfg_pull_none>;
+		};
+	};
+
+	touch {
+		tp_pins: tp-pins {
+			rockchip,pins = <1 RK_PB2 RK_FUNC_GPIO &pcfg_pull_none>,
+					<1 RK_PB3 RK_FUNC_GPIO &pcfg_pull_none>;
+		};
+	};
+
+	camera {
+		cama_pins: cama-pins {
+			rockchip,pins = <3 RK_PC5 RK_FUNC_GPIO &pcfg_pull_none>,
+					<3 RK_PC6 RK_FUNC_GPIO &pcfg_pull_none>;
+		};
+
+		camb_io0: camb-io0 {
+			rockchip,pins = <3 RK_PC4 RK_FUNC_GPIO &pcfg_pull_up>;
+		};
+
+		i2c_camb_pins: i2c-camb-pins {
+			rockchip,pins = <1 RK_PA0 RK_FUNC_GPIO &pcfg_pull_none>,
+					<1 RK_PA1 RK_FUNC_GPIO &pcfg_pull_none>;
+		};
+	};
+
+	audio {
+		amp_sd_mode: amp-sd-mode {
+			rockchip,pins = <4 RK_PA2 RK_FUNC_GPIO &pcfg_pull_down>;
+		};
+	};
+
+	rtc {
+		rtc_int: rtc-int {
+			rockchip,pins = <0 RK_PB0 RK_FUNC_GPIO &pcfg_pull_none>;
+		};
+	};
+
+	battery {
+		fg_alrt: fg-alrt {
+			rockchip,pins = <3 RK_PB2 RK_FUNC_GPIO &pcfg_pull_none>;
+		};
+	};
+
+	leds {
+		led_status: led-status {
+			rockchip,pins = <4 RK_PA4 RK_FUNC_GPIO &pcfg_pull_none>;
+		};
+	};
+
+	wireless-wlan {
+		wifi_host_wake_irq: wifi-host-wake-irq {
+			rockchip,pins = <0 RK_PA0 RK_FUNC_GPIO &pcfg_pull_down>;
+		};
+
+		wifi_poweren_gpio: wifi-poweren-gpio {
+			rockchip,pins = <0 RK_PD0 RK_FUNC_GPIO &pcfg_pull_down>;
+		};
+	};
+
+	wireless-bluetooth {
+		uart9_gpios: uart9-gpios {
+			rockchip,pins = <3 RK_PD2 RK_FUNC_GPIO &pcfg_pull_none>;
+		};
+
+		bt_reset_gpio: bt-reset-gpio {
+			rockchip,pins = <0 RK_PC7 RK_FUNC_GPIO &pcfg_pull_none>;
+		};
+
+		bt_wake_gpio: bt-wake-gpio {
+			rockchip,pins = <0 RK_PC6 RK_FUNC_GPIO &pcfg_pull_none>;
+		};
+
+		bt_irq_gpio: bt-irq-gpio {
+			rockchip,pins = <0 RK_PC5 RK_FUNC_GPIO &pcfg_pull_down>;
+		};
+	};
+};

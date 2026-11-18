@@ -1,0 +1,97 @@
+(footprint "CM5_Standoff_SMT_M2.5_L1.5"
+	(version 20260206)
+	(generator "cm5h_fpgen")
+	(layer "F.Cu")
+	(descr "CM5 mounting: YIYUAN SMTSOM2.515BTR M2.5 SMT standoff, 1.5 mm high (= DF40 1.5 mm stack), at the M2.5 hole positions of the module. Hole 4.22 and minimum solder pad 6.2 per the PEM SMTSO family table (YIYUAN SMTSO datasheet, M2.5 row: shank 4.09 x 1.53, body 5.56). The shank protrudes ~0.33 mm through the 1.2 mm board. No courtyard: inside the CM5 courtyard.")
+	(tags "CM5 module standoff M2.5 SMT nut")
+	(property "Reference" "REF**"
+		(at 0 -4.1 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CM5_Standoff_SMT_M2.5_L1.5"
+		(at 0 4.1 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.78 -2.78)
+		(end 2.78 2.78)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6.2 6.2)
+		(drill 4.22)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "" smd circle
+		(at 2.4021 0.995)
+		(size 0.7 0.7)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 0.995 2.4021)
+		(size 0.7 0.7)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at -0.995 2.4021)
+		(size 0.7 0.7)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at -2.4021 0.995)
+		(size 0.7 0.7)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at -2.4021 -0.995)
+		(size 0.7 0.7)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at -0.995 -2.4021)
+		(size 0.7 0.7)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 0.995 -2.4021)
+		(size 0.7 0.7)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 2.4021 -0.995)
+		(size 0.7 0.7)
+		(layers "F.Paste")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/cm5h.3dshapes/CM5_Standoff_SMT_M2.5_L1.5.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,180 @@
+(footprint "TI_VSONP-8_3.3x3.3mm_CSD17577Q3A"
+	(version 20260206)
+	(generator "cm5h_fpgen")
+	(layer "F.Cu")
+	(descr "TI CSD17577Q3A SON 3.3 x 3.3 mm (Q3A), land per datasheet SLPS515A sec. 7.2: pins 1-4 0.6 x 0.3 at x = -1.55, pad 9 1.775 x 2.45 from x = -0.56, drain fingers 5-8 0.635 x 0.3 beyond it. Separate pads 5-8 (KiCad NexFET footprint merges them into pad 5).")
+	(tags "CSD17577Q3A NexFET SON")
+	(property "Reference" "REF**"
+		(at 0 -2.65 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TI_VSONP-8_3.3x3.3mm_CSD17577Q3A"
+		(at 0 2.65 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.65 -1.65)
+		(end 1.65 1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -1.76 -1.76)
+		(end 1.76 -1.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 1.76 -1.76)
+		(end 1.76 -1.325)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 1.76 1.325)
+		(end 1.76 1.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -1.76 1.76)
+		(end 1.76 1.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -1.76 -1.76)
+		(end -1.76 -1.325)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -1.76 1.325)
+		(end -1.76 1.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_rect
+		(start -2.1 -1.9)
+		(end 2.1 1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_circle
+		(center -2.05 -1.35)
+		(end -1.95 -1.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+	)
+	(pad "1" smd roundrect
+		(at -1.55 -0.975)
+		(size 0.6 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+	)
+	(pad "2" smd roundrect
+		(at -1.55 -0.325)
+		(size 0.6 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+	)
+	(pad "3" smd roundrect
+		(at -1.55 0.325)
+		(size 0.6 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+	)
+	(pad "4" smd roundrect
+		(at -1.55 0.975)
+		(size 0.6 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+	)
+	(pad "9" smd roundrect
+		(at 0.3275 0)
+		(size 1.775 2.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.03)
+		(solder_paste_margin_ratio -0.2)
+	)
+	(pad "8" smd roundrect
+		(at 1.5325 -0.975)
+		(size 0.635 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+	)
+	(pad "7" smd roundrect
+		(at 1.5325 -0.325)
+		(size 0.635 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+	)
+	(pad "6" smd roundrect
+		(at 1.5325 0.325)
+		(size 0.635 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+	)
+	(pad "5" smd roundrect
+		(at 1.5325 0.975)
+		(size 0.635 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/cm5h.3dshapes/TI_VSONP-8_3.3x3.3mm_CSD17577Q3A.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

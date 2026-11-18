@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1010" viewBox="0 0 1500 1010">
+
+<style>
+ .t{font:13px sans-serif;fill:#1b1b1b}.s{font:11px sans-serif;fill:#444}.h{font:bold 14px sans-serif;fill:#1b1b1b}
+ .ti{font:bold 18px sans-serif;fill:#1b1b1b}.l{font:11px sans-serif;fill:#1d4e89}
+ .bx{stroke:#333;stroke-width:1.2;rx:6}.ln{stroke:#555;stroke-width:1.4;fill:none}
+ .hs{stroke:#b5172d;stroke-width:2.2;fill:none}.pw{stroke:#c26a00;stroke-width:2.4;fill:none}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b5172d"/></marker>
+<marker id="ap" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c26a00"/></marker></defs>
+
+<rect width="1500" height="1010" fill="#ffffff"/>
+<text class="ti" x="16" y="28">CM5 handheld: block diagram (Orange Pi CM5 redesign). Red = high-speed, grey = control/low-speed</text>
+<rect class="bx" x="560" y="330" width="330" height="330" rx="6" fill="#dfe9f7"/>
+<text class="h" x="568" y="348">Orange Pi CM5 (RK3588S)</text>
+<text class="s" x="568" y="364">3 x Hirose DF40 100-pin JP1-JP3 (1.5 mm stack)</text>
+<text class="s" x="568" y="378">VBUS 4.75-5.25 V (fed 5.03 V), 1.8 A max</text>
+<text class="s" x="568" y="392">outputs: VCC_3V3_S3 600 mA,</text>
+<text class="s" x="568" y="406">         VCC_1V8_S3 600 mA</text>
+<text class="s" x="568" y="420">no on-module Wi-Fi/BT</text>
+<text class="s" x="568" y="434">eMMC + LPDDR4X on module</text>
+<text class="s" x="568" y="448">GPIO0/3 1.8 V, GPIO4 3.3 V, GPIO1 = VREF 3.3 V</text>
+<text class="s" x="568" y="462">USB: OTG0, HOST0, HOST1 (USB 2.0) + USB3 (PHY2)</text>
+<text class="s" x="568" y="476">PCIe 2.0 x1 (PHY0), DSI1 4-lane</text>
+<text class="s" x="568" y="490">CSI 4-lane + 2-lane, SDMMC, I2S0, PDM0</text>
+<text class="s" x="568" y="504">UART2/9, I2C2/3/4/6</text>
+<rect class="bx" x="40" y="70" width="220" height="80" rx="6" fill="#f4f4f4"/>
+<text class="h" x="48" y="88">USB-C receptacle (16-pin)</text>
+<text class="s" x="48" y="104">charging + USB 2.0 data</text>
+<text class="s" x="48" y="118">left short edge</text>
+<rect class="bx" x="40" y="180" width="220" height="90" rx="6" fill="#fdebd3"/>
+<text class="h" x="48" y="198">TPS25751 PD sink</text>
+<text class="s" x="48" y="214">dead-battery boot from EEPROM</text>
+<text class="s" x="48" y="228">controls BQ25713 over I2C</text>
+<text class="s" x="48" y="242">IRQ -&gt; GPIO3_B3 (1.8 V)</text>
+<rect class="bx" x="300" y="180" width="200" height="70" rx="6" fill="#fdebd3"/>
+<text class="h" x="308" y="198">BQ25713 charger</text>
+<text class="s" x="308" y="214">NVDC, ext. BATFET &gt;= 12 A</text>
+<text class="s" x="308" y="228">PROCHOT# -&gt; GPIO3_C1</text>
+<path class="hs" d="M260,110 L530,110 L530,345 L560,345" marker-end="url(#ar)"/>
+<text class="l" x="300" y="104">OTG0 D+/D- (Maskrom, gadget)</text>
+<rect class="bx" x="40" y="300" width="220" height="110" rx="6" fill="#e7f4e4"/>
+<text class="h" x="48" y="318">USB2514B hub</text>
+<text class="s" x="48" y="334">upstream = HOST0</text>
+<text class="s" x="48" y="348">P1/P2 -&gt; USB-A 1/2</text>
+<text class="s" x="48" y="362">P3 -&gt; keyboard FFC</text>
+<text class="s" x="48" y="376">P4 -&gt; digitizer FPC (reserved)</text>
+<path class="hs" d="M560,400 L260,350" marker-end="url(#ar)"/>
+<text class="l" x="390" y="360">HOST0</text>
+<rect class="bx" x="40" y="440" width="220" height="70" rx="6" fill="#f4f4f4"/>
+<text class="h" x="48" y="458">2 x USB-A 2.0 (mid-mount)</text>
+<text class="s" x="48" y="474">bottom long edge</text>
+<text class="s" x="48" y="488">TPS2553 0.6 A limit each</text>
+<path class="hs" d="M150,410 L150,440" marker-end="url(#ar)"/>
+<rect class="bx" x="40" y="540" width="220" height="90" rx="6" fill="#efe7fb"/>
+<text class="h" x="48" y="558">Keyboard FFC (12-pin 0.5 mm)</text>
+<text class="s" x="48" y="574">USB D+/D-, 5 V, I2C, INT#,</text>
+<text class="s" x="48" y="588">RESET#, BOOT#</text>
+<text class="s" x="48" y="602">-&gt; Board B (RP2040 + Q20)</text>
+<path class="hs" d="M260,395 L280,395 L280,585 L260,585" marker-end="url(#ar)"/>
+<rect class="bx" x="40" y="680" width="250" height="120" rx="6" fill="#e7f4e4"/>
+<text class="h" x="48" y="698">M.2 Key-B 3042 socket</text>
+<text class="s" x="48" y="714">Quectel EM060K-GL (Cat-6, global)</text>
+<text class="s" x="48" y="728">USB 2.0 (HOST1) + USB 3.0 (PHY2)</text>
+<text class="s" x="48" y="742">FULL_CARD_POWER_OFF#, RESET#,</text>
+<text class="s" x="48" y="756">W_DISABLE1#, WAKE_ON_WAN#</text>
+<text class="s" x="48" y="770">antennas on module (MHF4)</text>
+<path class="hs" d="M560,600 L290,720" marker-end="url(#ar)"/>
+<text class="l" x="330" y="650">HOST1 USB2 + USB3 SS</text>
+<rect class="bx" x="40" y="830" width="250" height="70" rx="6" fill="#f4f4f4"/>
+<text class="h" x="48" y="848">nano-SIM push-push</text>
+<text class="s" x="48" y="864">ESD + series R; SIM_DETECT -&gt; M.2 pin 66</text>
+<text class="s" x="48" y="878">right short edge</text>
+<path class="ln" d="M165,800 L165,830" marker-end="url(#a)" marker-start="url(#a)"/>
+<rect class="bx" x="330" y="830" width="260" height="110" rx="6" fill="#e7f4e4"/>
+<text class="h" x="338" y="848">AMPAK AP6275P</text>
+<text class="s" x="338" y="864">Wi-Fi 6 2x2 over PCIe (combo PHY0)</text>
+<text class="s" x="338" y="878">BT 5.0 over UART9 (RTS/CTS), 1.8 V</text>
+<text class="s" x="338" y="892">37.4 MHz XTAL, 32.768 kHz LPO from RTC</text>
+<text class="s" x="338" y="906">2 x u.FL (50 ohm)</text>
+<path class="hs" d="M640,660 L500,830" marker-end="url(#ar)"/>
+<text class="l" x="585" y="760">PCIe 2.0 x1</text>
+<path class="ln" d="M690,660 L560,830" marker-end="url(#a)"/>
+<text class="l" x="612" y="800">UART9 + REG_ON/WAKE (GPIO0)</text>
+<rect class="bx" x="620" y="880" width="210" height="60" rx="6" fill="#e7f4e4"/>
+<text class="h" x="628" y="898">BM8563 RTC</text>
+<text class="s" x="628" y="914">always-on; CLKOUT 32 kHz -&gt; LPO</text>
+<text class="s" x="628" y="928">+ SoC CLK32K_IN</text>
+<path class="ln" d="M620,920 L590,920" marker-end="url(#a)"/>
+<path class="ln" d="M830,910 L1000,905" marker-end="url(#a)"/>
+<text class="l" x="850" y="900">I2C4, INT</text>
+<rect class="bx" x="1000" y="70" width="290" height="110" rx="6" fill="#f4f4f4"/>
+<text class="h" x="1008" y="88">Display FPC 30-pin (top face)</text>
+<text class="s" x="1008" y="104">DMKDI0400S0CA 4.0" 720x720, ST7703</text>
+<text class="s" x="1008" y="118">4-lane DSI1, RESET 1.8 V</text>
+<text class="s" x="1008" y="132">backlight LEDA/K &lt;- TPS61169</text>
+<text class="s" x="1008" y="146">pinout from panel DS s.4.1</text>
+<path class="hs" d="M890,360 L1000,140" marker-end="url(#ar)"/>
+<text class="l" x="900" y="230">DSI1 4 lanes</text>
+<rect class="bx" x="1000" y="200" width="290" height="70" rx="6" fill="#f4f4f4"/>
+<text class="h" x="1008" y="218">Touch FPC 8-pin (top face)</text>
+<text class="s" x="1008" y="234">GT911, I2C6 3.3 V, INT/RST GPIO1_B2/B3</text>
+<text class="s" x="1008" y="248">active stylus; EMR digitizer FPC reserved</text>
+<path class="ln" d="M890,390 L1000,245" marker-end="url(#a)"/>
+<rect class="bx" x="1000" y="300" width="290" height="90" rx="6" fill="#f4f4f4"/>
+<text class="h" x="1008" y="318">CAM-A FPC FH35C-31S (top face)</text>
+<text class="s" x="1008" y="334">Radxa 31-pin camera pinout</text>
+<text class="s" x="1008" y="348">4-lane CSI (MIPI_CSI0 D-PHY)</text>
+<text class="s" x="1008" y="362">MCLK, PDN, RST, I2C3 (1.8 V)</text>
+<path class="hs" d="M890,420 L1000,345" marker-end="url(#ar)"/>
+<text class="l" x="930" y="372">CSI 4-lane</text>
+<rect class="bx" x="1000" y="410" width="290" height="90" rx="6" fill="#f4f4f4"/>
+<text class="h" x="1008" y="428">CAM-B FPC 15-pin 1.0 mm (top)</text>
+<text class="s" x="1008" y="444">Radxa Camera 8M 219 / RPi v2</text>
+<text class="s" x="1008" y="458">2-lane CSI (DC-PHY0)</text>
+<text class="s" x="1008" y="472">I2C2 (3.3 V), CAM_IO0/1</text>
+<path class="hs" d="M890,470 L1000,455" marker-end="url(#ar)"/>
+<text class="l" x="905" y="455">CSI 2-lane</text>
+<rect class="bx" x="1000" y="520" width="290" height="90" rx="6" fill="#e7f4e4"/>
+<text class="h" x="1008" y="538">Audio</text>
+<text class="s" x="1008" y="554">2 x MAX98357A on I2S0 (L / R)</text>
+<text class="s" x="1008" y="568">2 x 2-pin speaker connectors</text>
+<text class="s" x="1008" y="582">PDM MEMS mic on PDM0</text>
+<path class="ln" d="M890,560 L1000,565" marker-end="url(#a)"/>
+<text class="l" x="905" y="557">I2S0 / PDM0</text>
+<rect class="bx" x="1000" y="630" width="290" height="70" rx="6" fill="#f4f4f4"/>
+<text class="h" x="1008" y="648">microSD push-push</text>
+<text class="s" x="1008" y="664">SDMMC 4-bit, CD -&gt; GPIO0_A4</text>
+<text class="s" x="1008" y="678">right short edge</text>
+<path class="ln" d="M890,610 L1000,665" marker-end="url(#a)"/>
+<text class="l" x="920" y="640">SDMMC</text>
+<rect class="bx" x="1000" y="720" width="290" height="110" rx="6" fill="#e7f4e4"/>
+<text class="h" x="1008" y="738">Buttons, debug, status</text>
+<text class="s" x="1008" y="754">Power (PWRON_L), Reset (RESET_L)</text>
+<text class="s" x="1008" y="768">Maskrom (SARADC_IN0)</text>
+<text class="s" x="1008" y="782">Recovery/Vol+/Vol- (SARADC_IN1 ladder)</text>
+<text class="s" x="1008" y="796">UART2 debug (3.3 V pads via TXS0104E), LED</text>
+<path class="ln" d="M890,640 L1000,770" marker-end="url(#a)"/>
+<rect class="bx" x="1000" y="850" width="290" height="80" rx="6" fill="#e7f4e4"/>
+<text class="h" x="1008" y="868">System I2C4 (3.3 V)</text>
+<text class="s" x="1008" y="884">TPS25751 (0x20-23), MAX17055</text>
+<text class="s" x="1008" y="898">BM8563 RTC (0x51)</text>
+<path class="ln" d="M860,660 L1000,890" marker-end="url(#a)"/>
+<rect class="bx" x="560" y="90" width="330" height="160" rx="6" fill="#fdebd3"/>
+<text class="h" x="568" y="108">Power (see power_tree.svg)</text>
+<text class="s" x="568" y="124">Battery 1S 5000 mAh (beside board)</text>
+<text class="s" x="568" y="138">BQ25713 NVDC -&gt; VSYS 3.0-4.5 V</text>
+<text class="s" x="568" y="152">TPS61088 -&gt; 5.03 V CM5</text>
+<text class="s" x="568" y="166">TPS61089 -&gt; 5.1 V USB-A/keyboard/cam</text>
+<text class="s" x="568" y="180">2 x TPS63020 -&gt; 3.7 V LTE, 3.3 V AUX</text>
+<text class="s" x="568" y="194">TPS61169 -&gt; backlight</text>
+<text class="s" x="568" y="208">MAX17055 fuel gauge (current sense)</text>
+<path class="pw" d="M500,215 L560,190" marker-end="url(#ap)"/>
+<path class="pw" d="M150,150 L150,180" marker-end="url(#ap)"/>
+<text class="l" x="156" y="170">VBUS</text>
+<path class="pw" d="M260,215 L300,215" marker-end="url(#ap)"/>
+<path class="pw" d="M725,250 L725,330" marker-end="url(#ap)"/>
+<text class="l" x="732" y="300">CM5_VIN 5.03 V</text>
+</svg>
